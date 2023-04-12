@@ -118,7 +118,7 @@ $title = "Job List";
 				</li> -->
 				
 				<li>
-					<a href="job-list.php">FIND JOBS</a>
+					<a href="job-list.php">TÌM VIỆC</a>
 
 				</li>
 				

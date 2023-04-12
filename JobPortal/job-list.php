@@ -128,7 +128,7 @@ $title = "Job List";
 			
 				
 				<li>
-					<a href="contact.php">FEED BACK</a>
+					<a href="contact.php">ĐÁNH GIÁ</a>
 				</li>
 
 			</ul>

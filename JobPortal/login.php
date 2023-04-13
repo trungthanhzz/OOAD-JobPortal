@@ -147,9 +147,9 @@ include 'constants/check-login.php';
 				<li><a href="'.$myrole.'">Profile</a></li>';
 			}else{
 			print '
-				<li><a href="login.php">Login</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employee">Register</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employer">Register as employer</a></li>';
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employee">Đăng ký</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employer">Nhà tuyển dụng</a></li>';
 				// chinh href
 			}
 			

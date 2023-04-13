@@ -50,7 +50,7 @@ $title = "Job List";
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - <?php echo "$title"; ?></title>
+	<title>Jobs Portal - <?php echo "$title"; ?></title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -144,9 +144,9 @@ $title = "Job List";
 				<li><a href="'.$myrole.'">Profile</a></li>';
 			}else{
 			print '
-				<li><a href="login.php">Login</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employee">Register</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employer">Register as employer</a></li>';
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employee">Đăng ký</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employer">Nhà tuyển dụng</a></li>';
 				// chinh href
 			}
 			
@@ -209,7 +209,7 @@ $title = "Job List";
 								<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
 									<div class="form-group form-lg">
 										<select class="form-control" name="category" required/>
-										<option value="">-Select category-</option>
+										<option value="">-Chọn danh mục-</option>
 										 <?php
 										 require 'constants/db_config.php';
 										 try {

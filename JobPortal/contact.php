@@ -10,7 +10,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Contact Us</title>
+	<title>Jobs Portal - Liên hệ</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -102,9 +102,9 @@ include 'constants/check-login.php';
 				<li><a href="'.$myrole.'">Profile</a></li>';
 			}else{
 			print '
-				<li><a href="login.php">Login</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employee">Register</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employer">Register as employer</a></li>';
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employee">Đăng ký</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employer">Nhà tuyển dụng</a></li>';
 				// chinh href
 			}
 			
@@ -159,7 +159,7 @@ include 'constants/check-login.php';
 				
 					<ol class="breadcrumb-list">
 						<li><a href="./">Home</a></li>
-						<li><span>Contact Us</span></li>
+						<li><span>Liên hệ</span></li>
 					</ol>
 					
 				</div>
@@ -176,7 +176,7 @@ include 'constants/check-login.php';
 						
 							<div class="section-title">
 							
-								<h2>Contact us for help</h2>
+								<h2>Liên hệ để được giúp đỡ</h2>
 								
 							</div>
 
@@ -196,8 +196,8 @@ include 'constants/check-login.php';
 									<div class="col-sm-6">
 									
 										<div class="form-group">
-											<label for="inputName">Your Name <span class="font10 text-danger">(required)</span></label>
-											<input id="inputName" name="fullname" type="text" class="form-control" data-error="Your name is required" required>
+											<label for="inputName">Tên của bạn <span class="font10 text-danger">(bắt buộc)</span></label>
+											<input id="inputName" name="fullname" type="text" class="form-control" data-error="Tên của bạn là bắt buộc" required>
 											<div class="help-block with-errors"></div>
 										</div>
 										
@@ -206,8 +206,8 @@ include 'constants/check-login.php';
 									<div class="col-sm-6">
 									
 										<div class="form-group">
-											<label for="inputEmail">Your Email <span class="font10 text-danger">(required)</span></label>
-											<input id="inputEmail" name="email" type="email" class="form-control" data-error="Your email is required and must be a valid email address" required>
+											<label for="inputEmail">Email <span class="font10 text-danger">(bắt buộc)</span></label>
+											<input id="inputEmail" name="email" type="email" class="form-control" data-error="Email của bạn là bắt buộc và phải là một địa chỉ email hợp lệ" required>
 											<div class="help-block with-errors"></div>
 										</div>
 										
@@ -217,15 +217,15 @@ include 'constants/check-login.php';
 									<div class="col-sm-12">
 									
 										<div class="form-group">
-											<label for="inputMessage">Message <span class="font10 text-danger">(required)</span></label>
-											<textarea id="inputMessage" name="message" class="form-control" rows="8" data-minlength="50" data-error="Your message is required and must not less than 50 characters" required></textarea>
+											<label for="inputMessage">Nội dung <span class="font10 text-danger">(bắt buộc)</span></label>
+											<textarea id="inputMessage" name="message" class="form-control" rows="8" data-minlength="50" data-error="Nội dung bắt buộc và không được ít hơn 50 ký tự" required></textarea>
 											<div class="help-block with-errors"></div>
 										</div>
 
 									</div>
 									
 									<div class="col-sm-12 text-right">
-										<button type="submit" class="btn btn-primary mt-5">Send Message</button>
+										<button type="submit" class="btn btn-primary mt-5">Gửi phản hồi</button>
 									</div>
 									
 								</div>
@@ -238,18 +238,18 @@ include 'constants/check-login.php';
 						
 							<ul class="address-list">
 								<li>
-										<h5>Address</h5>
-										<address> Takoradi, <br/> PO.BOX AX40, <br/>School Junction</address>
+										<h5>Địa chỉ</h5>
+										<address> 66B Nguyễn Sỹ Sách, <br/> Phường 15, <br/>Quận Tân Bình</address>
 								</li>
 								<li>
-										<h5>Email</h5><a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a>
+										<h5>Email</h5><a href="mailto:nightingale.nath2@gmail.com">khoatinh36@gmail.com</a>
 								</li>
 								<li>
-										<h5>Phone Number</h5><a href="tel:+233 546 607 474">+233 546 607 474</a>
+										<h5>Số điện thoại</h5><a href="tel:+233 546 607 474">+233 456 789</a>
 								</li>
 
 								<li>
-										<h5>Social Networks</h5>
+										<h5>Mạng xã hội</h5>
 										<div class="contact-social">
 										
 											<a href="<?php echo "$fb"; ?>" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -313,11 +313,11 @@ include 'constants/check-login.php';
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -331,7 +331,7 @@ include 'constants/check-login.php';
 					
 				</div>
 				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
+					<p>Copyright by Group 8 2223II_INT3110_2</p>
 				</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">

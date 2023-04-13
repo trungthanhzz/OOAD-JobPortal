@@ -24,7 +24,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Employers</title>
+	<title>Jobs Portal - Tuyển dụng</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -106,17 +106,17 @@ $page = 1;
 				</li> -->
 				
 				<li>
-					<a href="job-list.php">FIND JOBS</a>
+					<a href="job-list.php">TÌM VIỆC</a>
 
 				</li>
 				
 				<li>
-					<a href="employers.php">COMPANIES</a>
+					<a href="employers.php">CÔNG TY</a>
 				</li>
 			
 				
 				<li>
-					<a href="contact.php">FEED BACK</a>
+					<a href="contact.php">ĐÁNH GIÁ</a>
 				</li>
 
 			</ul>
@@ -132,9 +132,9 @@ $page = 1;
 				<li><a href="'.$myrole.'">Profile</a></li>';
 			}else{
 			print '
-				<li><a href="login.php">Login</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employee">Register</a></li>
-				<li><a data-toggle="modal" href="register.php?p=Employer">Register as employer</a></li>';
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employee">Đăng ký</a></li>
+				<li><a data-toggle="modal" href="register.php?p=Employer">Nhà tuyển dụng</a></li>';
 				// chinh href
 			}
 			
@@ -189,7 +189,7 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="./">Home</a></li>
+						<li><a href="./">Trang chủ</a></li>
 						<li><span>Employers</span></li>
 					</ol>
 					
@@ -382,11 +382,11 @@ $page = 1;
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -400,7 +400,7 @@ $page = 1;
 					
 				</div>
 				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
+					<p>Copyright by Group 8 2223II_INT3110_2</p>
 				</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">

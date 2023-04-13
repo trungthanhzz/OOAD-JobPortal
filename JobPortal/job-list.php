@@ -123,7 +123,7 @@ $title = "Job List";
 				</li>
 				
 				<li>
-					<a href="employers.php">COMPANIES</a>
+					<a href="employers.php">CÔNG TY</a>
 				</li>
 			
 				
@@ -245,7 +245,7 @@ $title = "Job List";
 								<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
 									<div class="form-group form-lg">
 										<select class="form-control" name="country" required/>
-										<option value="">-Select country-</option>
+										<option value="">-Chọn Quốc gia-</option>
 										 <?php
 										 require 'constants/db_config.php';
 										 try {
@@ -297,7 +297,7 @@ $title = "Job List";
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="./">Home</a></li>
+						<li><a href="./">Trang chủ</a></li>
 						<li><span><?php echo "$title"; ?></span></li>
 					</ol>
 					
@@ -434,7 +434,7 @@ $title = "Job List";
 													</div>
 													
 													<div class="col-sm-5 col-md-4">
-														<a target="_blank" href="explore-job.php?jobid=<?php echo $row['job_id']; ?>" class="btn btn-primary">View This Job</a>
+														<a target="_blank" href="explore-job.php?jobid=<?php echo $row['job_id']; ?>" class="btn btn-primary">Xem công việc</a>
 													</div>
 													
 												</div>
@@ -562,11 +562,11 @@ $title = "Job List";
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -580,7 +580,7 @@ $title = "Job List";
 					
 				</div>
 				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
+					<p>Copyright by Group 8 2223II_INT3110_2</p>
 				</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">

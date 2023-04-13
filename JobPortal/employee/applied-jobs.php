@@ -33,7 +33,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Applied Jobs</title>
+	<title>Jobs Portal - Ứng tuyển</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -104,7 +104,7 @@ $page = 1;
 						
 							<li>
 							
-								<a href="../">Home</a>
+								<a href="../">Trang chủ</a>
 								
 							</li>
 							
@@ -114,11 +114,11 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
@@ -131,8 +131,8 @@ $page = 1;
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">logout</a></li>
-							<li><a href="./">Profile</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
+							<li><a href="./">Hồ sơ</a></li>
 						</ul>
 					</div>
 				
@@ -152,8 +152,8 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Nightingale Jobs</a></li>
-						<li><span>Applied Jobs</span></li>
+						<li><a href="../">Jobs Portal</a></li>
+						<li><span>Ứng tuyển</span></li>
 					</ol>
 					
 				</div>
@@ -194,43 +194,43 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">View my CV</a>
+										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">My CV</a>
 										
 									</div>
 									
 									<ul class="admin-user-menu clearfix">
 										<li>
-											<a href="./"><i class="fa fa-user"></i> Profile</a>
+											<a href="./"><i class="fa fa-user"></i>Hồ sơ</a>
 										</li>
 										<li class="">
-										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
+										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
+										</li>
+										<li  >
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Trình độ chuyên môn</a>
 										</li>
 										<li>
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
+											<a href="language.php"><i class="fa fa-language"></i> Trình độ ngoại ngữ</a>
 										</li>
 										<li>
-											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>
+											<a href="training.php"><i class="fa fa-gears"></i> Hội thảo & tập huấn</a>
 										</li>
 										<li>
-											<a href="training.php"><i class="fa fa-gears"></i> Training & Workshop</a>
-										</li>
-										<li>
-											<a href="referees.php"><i class="fa fa-users"></i> Referees</a>
-										</li>
-										<li>
-											<a href="academic.php"><i class="fa fa-graduation-cap"></i> Academic Qualifications</a>
-										</li>
-										<li>
-											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
-										</li>
-										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="referees.php"><i class="fa fa-users"></i> Môi giới</a>
 										</li>
 										<li class="active">
-											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
+											<a href="academic.php"><i class="fa fa-graduation-cap"></i>Học vấn</a>
 										</li>
 										<li>
-											<a href="../logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+											<a href="experience.php"><i class="fa fa-briefcase"></i> Kinh nghiệm</a>
+										</li>
+										<li>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Tệp đình kèm</a>
+										</li>
+										<li>
+											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Việc đã ứng tuyển</a>
+										</li>
+										<li>
+											<a href="../logout.php"><i class="fa fa-sign-out"></i> Đăng xuất</a>
 										</li>
 									</ul>
 									
@@ -431,22 +431,23 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+											<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
+											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 										
 										</div>
+
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+										<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
+											<li><a href="../">Trang chủ</a></li>
 											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
 											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>
 									
@@ -458,11 +459,11 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
+								<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -482,16 +483,16 @@ $page = 1;
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
-								
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+					
 							</div>
-							
+				
 							<div class="col-sm-4 col-md-4">
-							
+				
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
+									<li><a >Developed by Trungthanhzz</a></li>
 								</ul>
-							
+				
 							</div>
 							
 							<div class="col-sm-4 col-md-4">

@@ -5,7 +5,7 @@
 <div class="box-register">
 							
 <div class="modal-header">
-<h4 class="modal-title text-center">Create your account for free</h4>
+<h4 class="modal-title text-center">Tạo tài khoản</h4>
 </div>
 
 <!-- <div class="modal-body"> -->
@@ -22,7 +22,7 @@
 
 <div class="input-wrapper"> 
 <input class="form-control_register" type="text" name="fname" required="required"> 
-<span>FullName</span>
+<span>Họ tên</span>
 <i></i>
 </div>
 												
@@ -42,7 +42,7 @@
 
 <div class="input-wrapper"> 
     <input class="form-control_register" type="text" name="email" required="required"> 
-    <span>UserName</span>
+    <span>Tài khoản</span>
     <i></i>
 </div>
 												
@@ -52,7 +52,7 @@
 												
 <div class="input-wrapper"> 
     <input class="form-control_register" name="password" required="required" type="password"> 
-    <span>Password</span>
+    <span>Mật khẩu</span>
     <i></i>
 </div>
 												
@@ -62,7 +62,7 @@
 												
 <div class="input-wrapper"> 
     <input class="form-control_register" name="confirmpassword" required="required" type="password"> 
-    <span>Password Confirmation</span>
+    <span>Xác nhận mật khẩu</span>
     <i></i>
 </div>
 												
@@ -76,11 +76,11 @@
 </div>
 
 <div class="modal-footer text-center">
-<button  onclick="return val();" type="submit" name="reg_mode" class="btn btn-primary mt-5">Register</button>
+<button  onclick="return val();" type="submit" name="reg_mode" class="btn btn-primary mt-5">Đăng ký</button>
 <div class="sign-in_by-register">
-        <p> Already have an account? 
+        <p> Đồng ý với các điều khoản? 
             <a href="login.php">
-                Sign in</a>
+                Đăng nhập</a>
         </p>
     </div>	
 </div>

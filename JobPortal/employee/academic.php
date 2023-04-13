@@ -33,7 +33,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Academic Qualifications</title>
+	<title>Jobs Portal - Học vấn</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -103,7 +103,7 @@ $page = 1;
 						
 							<li>
 							
-								<a href="../">Home</a>
+								<a href="../">Trang chủ</a>
 								
 							</li>
 							
@@ -113,11 +113,11 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
@@ -130,8 +130,8 @@ $page = 1;
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">logout</a></li>
-							<li><a href="./">Profile</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
+							<li><a href="./">Hồ sơ</a></li>
 						</ul>
 					</div>
 				
@@ -151,8 +151,8 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Nightingale Jobs</a></li>
-						<li><span>Academic Qualifications</span></li>
+						<li><a href="../">Jobs Portal</a></li>
+						<li><span>Học vấn</span></li>
 					</ol>
 					
 				</div>
@@ -193,43 +193,43 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">View my CV</a>
+										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">My CV</a>
 										
 									</div>
 									
 									<ul class="admin-user-menu clearfix">
 										<li>
-											<a href="./"><i class="fa fa-user"></i> Profile</a>
+											<a href="./"><i class="fa fa-user"></i>Hồ sơ</a>
 										</li>
 										<li class="">
-										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
+										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
 										</li>
 										<li  >
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Trình độ chuyên môn</a>
 										</li>
 										<li>
-											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>
+											<a href="language.php"><i class="fa fa-language"></i> Trình độ ngoại ngữ</a>
 										</li>
 										<li>
-											<a href="training.php"><i class="fa fa-gears"></i> Training & Workshop</a>
+											<a href="training.php"><i class="fa fa-gears"></i> Hội thảo & tập huấn</a>
 										</li>
 										<li>
-											<a href="referees.php"><i class="fa fa-users"></i> Referees</a>
+											<a href="referees.php"><i class="fa fa-users"></i> Môi giới</a>
 										</li>
 										<li class="active">
-											<a href="academic.php"><i class="fa fa-graduation-cap"></i> Academic Qualifications</a>
+											<a href="academic.php"><i class="fa fa-graduation-cap"></i>Học vấn</a>
 										</li>
 										<li>
-											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
+											<a href="experience.php"><i class="fa fa-briefcase"></i> Kinh nghiệm</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Tệp đình kèm</a>
 										</li>
 										<li>
-											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
+											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Việc đã ứng tuyển</a>
 										</li>
 										<li>
-											<a href="../logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+											<a href="../logout.php"><i class="fa fa-sign-out"></i> Đăng xuất</a>
 										</li>
 									</ul>
 									

@@ -12,7 +12,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Login</title>
+	<title>Jobs Portal - Đăng nhập</title>
 	
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
@@ -121,17 +121,17 @@ include 'constants/check-login.php';
 				</li> -->
 				
 				<li>
-					<a href="job-list.php">FIND JOBS</a>
+					<a href="job-list.php">TÌM VIỆC</a>
 
 				</li>
 				
 				<li>
-					<a href="employers.php">COMPANIES</a>
+					<a href="employers.php">CÔNG TY</a>
 				</li>
 			
 				
 				<li>
-					<a href="contact.php">FEED BACK</a>
+					<a href="contact.php">ĐÁNH GIÁ</a>
 				</li>
 
 			</ul>
@@ -205,8 +205,8 @@ include 'constants/check-login.php';
 				<div class="container">
 				
 					<ol class="breadcrumb-list">
-						<li><a href="./">Home</a></li>
-						<li><span>Access your account</span></li>
+						<li><a href="./">Trang chủ</a></li>
+						<li><span>Truy cập tài khoản</span></li>
 					</ol>
 					
 				</div>
@@ -233,20 +233,20 @@ include 'constants/check-login.php';
 		<div class="box-loginn">
 		<form class="loginn-form" action="app/auth.php" method="POST" autocomplete="off" >
 			
-			<h2 class="h2-loginn">Sign in</h2>
+			<h2 class="h2-loginn">Đăng nhập</h2>
 			<div class="inputBox-loginn">
 				<input type="text" required="required" name="email">
-				<span>Userame</span>
+				<span>Tài khoản</span>
 				<i></i>
 			</div>
 			<div class="inputBox-loginn">
 				<input type="password" required="required" name="password">
-				<span>Password</span>
+				<span>Mật khẩu</span>
 				<i></i>
 			</div>
 			
 			<div class="modal-footer text-center">
-				<button type="submit" class="btn btn-primary" style="color: black !important; font-weight: 600 !important;">Login</button>
+				<button type="submit" class="btn btn-primary" style="color: black !important; font-weight: 600 !important;">Đăng nhập</button>
 			</div>
 	
 </form>
@@ -346,7 +346,7 @@ include 'constants/check-login.php';
 					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
 				</div> -->
 		
-			<!-- </div> -->
+			</div>
 									
 								</div>
 							
@@ -402,11 +402,11 @@ include 'constants/check-login.php';
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -420,7 +420,7 @@ include 'constants/check-login.php';
 					
 				</div>
 				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
+					<p>Copyright by Group 8 2223II_INT3110_2</p>
 				</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">

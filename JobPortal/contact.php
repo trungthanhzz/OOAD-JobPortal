@@ -76,17 +76,17 @@ include 'constants/check-login.php';
 				</li> -->
 				
 				<li>
-					<a href="job-list.php">FIND JOBS</a>
+					<a href="job-list.php">TÌM VIỆC</a>
 
 				</li>
 				
 				<li>
-					<a href="employers.php">COMPANIES</a>
+					<a href="employers.php">CÔNG TY</a>
 				</li>
 			
 				
 				<li>
-					<a href="contact.php">FEED BACK</a>
+					<a href="contact.php">ĐÁNH GIÁ</a>
 				</li>
 
 			</ul>

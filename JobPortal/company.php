@@ -141,7 +141,7 @@ $page = 1;
 						
 							<li>
 							
-								<a href="./">Home</a>
+								<a href="./">Trang chủ</a>
 								
 							</li>
 							
@@ -151,11 +151,11 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="employers.php">Employers</a>
+								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="employees.php">Employees</a>
+								<a href="employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
@@ -379,7 +379,7 @@ $page = 1;
 														</div>
 														
 													<div class="col-sm-5 col-md-4">
-														<a target="_blank" href="explore-job.php?jobid=<?php echo $row['job_id']; ?>" class="btn btn-primary">View This Job</a>
+														<a target="_blank" href="explore-job.php?jobid=<?php echo $row['job_id']; ?>" class="btn btn-primary">Xem công việc</a>
 													</div>
 														
 													</div>
@@ -506,11 +506,11 @@ $page = 1;
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -524,7 +524,7 @@ $page = 1;
 					
 				</div>
 				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
+					<p>Copyright by Group 8 2223II_INT3110_2</p>
 				</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">

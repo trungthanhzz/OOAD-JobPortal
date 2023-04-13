@@ -33,7 +33,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Other Attachments</title>
+	<title>Jobs Portal - Tệp đính kèm</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -109,17 +109,17 @@ $page = 1;
 				</li> -->
 				
 				<li>
-					<a href="job-list.php">FIND JOBS</a>
+					<a href="job-list.php">TÌM VIỆC</a>
 
 				</li>
 				
 				<li>
-					<a href="employers.php">COMPANIES</a>
+					<a href="employers.php">CÔNG TY</a>
 				</li>
 			
 				
 				<li>
-					<a href="contact.php">FEED BACK</a>
+					<a href="contact.php">ĐÁNH GIÁ</a>
 				</li>
 
 			</ul>
@@ -191,8 +191,8 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Home</a></li>
-						<li><span>Other Attachments</span></li>
+						<li><a href="../">Trang chủ</a></li>
+						<li><span>Tệp đính kèm</span></li>
 					</ol>
 					
 				</div>
@@ -233,13 +233,13 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">View my CV</a>
+										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">My CV</a>
 										
 									</div>
 									
 									<ul class="admin-user-menu clearfix">
 										<li>
-											<a href="./"><i class="fa fa-user"></i> Profile</a>
+											<a href="./"><i class="fa fa-user"></i>Hồ sơ</a>
 										</li>
 										<!-- <li class="">
 										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
@@ -269,7 +269,7 @@ $page = 1;
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
 										</li> -->
 										<li>
-											<a href="../logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+											<a href="../logout.php"><i class="fa fa-sign-out"></i>Đăng xuất</a>
 										</li>
 									</ul>
 									
@@ -343,8 +343,8 @@ $page = 1;
 													
 													<div class="resume-list-btn">
 													
-									<a data-toggle="modal" href="#edit<?php echo $row['id']; ?>" class="btn btn-primary btn-sm mb-5 mb-0-sm">Edit</a>
-									<a href="app/drop-attachment.php?id=<?php echo $row['id']; ?>" onclick = "return confirm('Are you sure you want to delete this attachment ?')" class="btn btn-primary btn-sm btn-inverse">Delete</a>
+									<a data-toggle="modal" href="#edit<?php echo $row['id']; ?>" class="btn btn-primary btn-sm mb-5 mb-0-sm">Sửa</a>
+									<a href="app/drop-attachment.php?id=<?php echo $row['id']; ?>" onclick = "return confirm('Are you sure you want to delete this attachment ?')" class="btn btn-primary btn-sm btn-inverse">Xóa</a>
 									<div id="edit<?php echo $row['id']; ?>" class="modal fade login-box-wrapper" tabindex="-1" data-width="550" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">
 			
 				                    <div class="modal-header">
@@ -360,7 +360,7 @@ $page = 1;
 						            <div class="col-sm-12 col-md-12">
 				
 							        <div class="form-group"> 
-								    <label>Attachment Type</label>
+								    <label>Loại tệp đính kèm</label>
 								    <input class="form-control" value="<?php echo "$att_title"; ?>" placeholder="Eg: birth certificate, driving licence" type="text" name="title" required> 
 							        </div>
 						
@@ -369,7 +369,7 @@ $page = 1;
 						             <div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Issuer</label>
+								    <label>Tổ chức</label>
 								    <input class="form-control" value="<?php echo "$att_issuer"; ?>" placeholder="Enter issuer" type="text" name="issuer" required> 
 							        </div>
 						
@@ -379,7 +379,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Select Attachment <i>(Leave blank if you dont want to update)</i></label>
+								    <label>Chọn tệp đính kèm <i>(Để trống nếu bạn không cập nhật)</i></label>
 								    <input class="form-control" accept="application/pdf" type="file" name="certificate"> 
 							        </div>
 						
@@ -391,7 +391,7 @@ $page = 1;
 				                   <input type="hidden" name="attid" value="<?php echo "$att_id"; ?>">
 				                   <div class="modal-footer text-center">
 				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -473,14 +473,14 @@ $page = 1;
 									
 									<div class="mt-30">
 									
-										<a data-toggle="modal" href="#QualifModal" class="btn btn-primary btn-lg">Add new</a>
+										<a data-toggle="modal" href="#QualifModal" class="btn btn-primary btn-lg">Thêm mới</a>
 										
 									</div>
 									<div id="QualifModal" class="modal fade login-box-wrapper" tabindex="-1" data-width="550" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">
 			
 				                    <div class="modal-header">
 					                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					                 <h4 class="modal-title text-center">Add Attachments</h4>
+					                 <h4 class="modal-title text-center">Thêm tệp</h4>
 				                    </div>
 				
 				                    <div class="modal-body">
@@ -491,7 +491,7 @@ $page = 1;
 						            <div class="col-sm-12 col-md-12">
 				
 							        <div class="form-group"> 
-								    <label>Attachment Type</label>
+								    <label>Tệp khác</label>
 								    <input class="form-control" placeholder="Eg: birth certificate, driving licence" type="text" name="title" required> 
 							        </div>
 						
@@ -500,7 +500,7 @@ $page = 1;
 						             <div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Issuer</label>
+								    <label>Tổ chức</label>
 								    <input class="form-control" placeholder="Enter issuer" type="text" name="issuer" required> 
 							        </div>
 						
@@ -510,7 +510,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Select Attachment</label>
+								    <label>Chọn tệp</label>
 								    <input class="form-control" accept="application/pdf" type="file" name="certificate" required> 
 							        </div>
 						
@@ -524,7 +524,7 @@ $page = 1;
 				
 				                   <div class="modal-footer text-center">
 				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -556,22 +556,22 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+											<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
+											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 										
 										</div>
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+										<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
+											<li><a href="../">Trang chủ</a></li>
 											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
 											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>
 									
@@ -583,11 +583,11 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
+								<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -607,14 +607,14 @@ $page = 1;
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
 								
 							</div>
 							
 							<div class="col-sm-4 col-md-4">
 							
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
+									<li><a >Developed by Trungthanhzz</a></li>
 								</ul>
 							
 							</div>

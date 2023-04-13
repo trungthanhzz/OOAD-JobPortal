@@ -61,7 +61,7 @@ header("location:./");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - <?php echo "$myfname"; ?> <?php echo "$mylname"; ?></title>
+	<title>Jobs Portal <?php echo "$myfname"; ?> <?php echo "$mylname"; ?></title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -135,7 +135,7 @@ header("location:./");
 						
 							<li>
 							
-								<a href="./">Home</a>
+								<a href="./">Trang chủ</a>
 								
 							</li>
 							
@@ -145,11 +145,11 @@ header("location:./");
 							</li>
 							
 							<li>
-								<a href="employers.php">Employers</a>
+								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="employees.php">Employees</a>
+								<a href="employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
@@ -188,7 +188,7 @@ header("location:./");
 			
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title text-center">Create your account for free</h4>
+					<h4 class="modal-title text-center">Tạo tài khoản</h4>
 				</div>
 				
 				<div class="modal-body">
@@ -207,7 +207,7 @@ header("location:./");
 				</div>
 				
 				<div class="modal-footer text-center">
-					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				</div>
 				
 			</div>
@@ -223,7 +223,7 @@ header("location:./");
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="employees.php">All Employees</a></li>
+						<li><a href="employees.php">Tất cả nhân viên</a></li>
 						<li><span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?></span></li>
 					</ol>
 					
@@ -260,15 +260,15 @@ header("location:./");
 										
 										<ul class="meta-list clearfix">
 											<li>
-												<h4 class="heading">Birth Day:</h4>
+												<h4 class="heading">Ngày sinh:</h4>
 												<?php echo "$bdate"; ?>/<?php echo "$bmonth"; ?>/<?php echo "$byear"; ?>
 											</li>
 											<li>
-												<h4 class="heading">Age:</h4>
+												<h4 class="heading">Tuổi:</h4>
 												<?php echo "$myage"; ?>-year-old
 											</li>
 											<li>
-												<h4 class="heading">Education:</h4>
+												<h4 class="heading">Học vấn:</h4>
 												<?php echo "$myedu"; ?> in <?php echo "$mytitle"; ?>
 											</li>
 											<li>
@@ -281,7 +281,7 @@ header("location:./");
 						
 									<div class="employee-detail-company-overview mt-40 clearfix">
 									
-										<h3>Introduce my self</h3>
+										<h3>Giới thiệu bản thân</h3>
 										
 										<p><?php echo "$about"; ?></p>
 										
@@ -289,7 +289,7 @@ header("location:./");
 										
 											<div class="col-sm-12">
 											
-												<h3>Education</h3>
+												<h3>Học vấn</h3>
 												
 												<ul class="employee-detail-list">
 												<?php
@@ -312,7 +312,7 @@ header("location:./");
 												<li>
 												<h5><?php echo $row['course']; ?> </h5>
 												<p class="text-muted font-italic">Level - <?php echo $row['level']; ?> , <?php echo $row['timeframe']; ?><span class="font600 text-primary"> <?php echo $row['institution']; ?></span> <?php echo $row['country']; ?></p>
-												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate.php?id=<?php echo $row['id']; ?>">View Certificate</a></p>
+												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate.php?id=<?php echo $row['id']; ?>">Xem chứng chỉ</a></p>
 												</li>
 												<?php
 	                                            }
@@ -335,7 +335,7 @@ header("location:./");
 											
 										</div>
 										
-										<h3>Work Experience</h3>
+										<h3>Kinh nghiệm làm việc</h3>
 											<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -376,7 +376,7 @@ header("location:./");
 										
 							
 										
-										<h3>Training & Workshop</h3>
+										<h3>Hội thảo $ tập huấn</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -404,7 +404,7 @@ header("location:./");
 													
 												}else{
 												?>
-                                                <p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate-b.php?id=<?php echo $row['id']; ?>">View Certificate</a></p>
+                                                <p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate-b.php?id=<?php echo $row['id']; ?>">Xem chứng chỉ</a></p>
                                                 <?php												
 												}
 												
@@ -426,7 +426,7 @@ header("location:./");
 													
 												</ul>
 										
-										<h3>Professional Qualifications</h3>
+										<h3>Trình độ chuyên môn</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -449,7 +449,7 @@ header("location:./");
 											    <li>
 												<h5><?php echo $row['title']; ?> </h5>
 												<p class="text-muted font-italic"><?php echo $row['timeframe']; ?><span class="font600 text-primary"> <?php echo $row['institution']; ?></span> <?php echo $row['country']; ?></p>
-												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate-c.php?id=<?php echo $row['id']; ?>">View Certificate</a></p>
+												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate-c.php?id=<?php echo $row['id']; ?>">Xem chứng chỉ</a></p>
 												</li>
 												<?php
 	                                            }
@@ -466,7 +466,7 @@ header("location:./");
 												</ul>
 												
 												
-											<h3>Other Attachments</h3>
+											<h3>Tệp đính kèm</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -488,7 +488,7 @@ header("location:./");
 												<li>
 												<h5><?php echo $row['title']; ?> </h5>
 												<p class="font600 text-primary"><?php echo $row['issuer']; ?></p>
-												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-attachment.php?id=<?php echo $row['id']; ?>">View Attachment</a></p>
+												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-attachment.php?id=<?php echo $row['id']; ?>">Xem hồ sơ</a></p>
 												</li>
 												<?php
 	                                            }
@@ -506,7 +506,7 @@ header("location:./");
 												</ul>
 										
 										
-										<h3>Language Proficiency</h3>
+										<h3>Trình độ ngoại ngữ</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -544,7 +544,7 @@ header("location:./");
 												</ul>
 										
 										
-										<h3>Referees</h3>
+										<h3>Môi giới</h3>
 										<ul class="list-icon">
 												<?php
 												require 'constants/db_config.php';
@@ -623,22 +623,23 @@ header("location:./");
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+											<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
+											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 										
 										</div>
+
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+										<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="./">Home</a></li>
-											<li><a href="job-list.php">Job List</a></li>
-											<li><a href="employers.php">Employers</a></li>
-											<li><a href="employees.php">Employees</a></li>
-											<li><a href="contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="../">Trang chủ</a></li>
+											<li><a href="../job-list.php">Job List</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
+											<li><a href="../contact.php">Contact Us</a></li>
+											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>
 									
@@ -650,11 +651,11 @@ header("location:./");
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
+								<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -674,24 +675,16 @@ header("location:./");
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
 								
 							</div>
 							
 							<div class="col-sm-4 col-md-4">
 							
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
+									<li><a >Developed by Trungthanhzz</a></li>
 								</ul>
 							
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-								<ul class="bottom-footer-menu for-social">
-									<li><a href="<?php echo "$tw"; ?>"><i class="ri ri-twitter" data-toggle="tooltip" data-placement="top" title="twitter"></i></a></li>
-									<li><a href="<?php echo "$fb"; ?>"><i class="ri ri-facebook" data-toggle="tooltip" data-placement="top" title="facebook"></i></a></li>
-									<li><a href="<?php echo "$ig"; ?>"><i class="ri ri-instagram" data-toggle="tooltip" data-placement="top" title="instagram"></i></a></li>
-								</ul>
 							</div>
 						
 						</div>

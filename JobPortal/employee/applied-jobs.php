@@ -109,7 +109,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
@@ -122,7 +122,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../contact.php">Contact Us</a>
+								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -244,7 +244,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Applied Jobs</h2>
+										<h2>Ứng tuyển</h2>
 					
 										
 									</div>
@@ -446,7 +446,7 @@ $page = 1;
 											<li><a href="../job-list.php">Job List</a></li>
 											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
 											<li><a href="../employees.php">Nhân viên</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
 											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>

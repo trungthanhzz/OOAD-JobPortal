@@ -283,7 +283,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Other Attachments</h2>
+										<h2>Tệp đính kèm khác</h2>
 					
 										
 									</div>
@@ -390,7 +390,7 @@ $page = 1;
 				                   </div>
 				                   <input type="hidden" name="attid" value="<?php echo "$att_id"; ?>">
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
 					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
@@ -523,7 +523,7 @@ $page = 1;
 				         
 				
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
 					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
@@ -570,7 +570,7 @@ $page = 1;
 											<li><a href="../job-list.php">Job List</a></li>
 											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
 											<li><a href="../employees.php">Nhân viên</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
 											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>

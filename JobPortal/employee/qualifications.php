@@ -33,7 +33,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Bwire Jobs - Professional Qualifications</title>
+	<title>Bwire Jobs - Trình độ chuyên môn</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -104,25 +104,25 @@ $page = 1;
 						
 							<li>
 							
-								<a href="../">Home</a>
+								<a href="../">Trang chủ</a>
 								
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sach việc làm</a>
 
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
-								<a href="../contact.php">Contact Us</a>
+								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -131,8 +131,8 @@ $page = 1;
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">logout</a></li>
-							<li><a href="./">Profile</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
+							<li><a href="./">Hồ sơ</a></li>
 						</ul>
 					</div>
 				
@@ -153,7 +153,7 @@ $page = 1;
 				
 					<ol class="breadcrumb-list booking-step">
 						<li><a href="../">Bwire Jobs</a></li>
-						<li><span>Professional Qualifications</span></li>
+						<li><span>Trình độ chuyên môn</span></li>
 					</ol>
 					
 				</div>
@@ -194,43 +194,43 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">View my CV</a>
+										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">My CV</a>
 										
 									</div>
 									
 									<ul class="admin-user-menu clearfix">
 										<li>
-											<a href="./"><i class="fa fa-user"></i> Profile</a>
+											<a href="./"><i class="fa fa-user"></i>Hồ sơ</a>
 										</li>
 										<li class="">
-										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
+										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
 										</li>
-										<li  class="active">
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
-										</li>
-										<li>
-											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>
+										<li  >
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Trình độ chuyên môn</a>
 										</li>
 										<li>
-											<a href="training.php"><i class="fa fa-gears"></i> Training & Workshop</a>
+											<a href="language.php"><i class="fa fa-language"></i> Trình độ ngoại ngữ</a>
 										</li>
 										<li>
-											<a href="referees.php"><i class="fa fa-users"></i> Referees</a>
+											<a href="training.php"><i class="fa fa-gears"></i> Hội thảo & tập huấn</a>
 										</li>
 										<li>
-											<a href="academic.php"><i class="fa fa-graduation-cap"></i> Academic Qualifications</a>
+											<a href="referees.php"><i class="fa fa-users"></i> Môi giới</a>
+										</li>
+										<li class="active">
+											<a href="academic.php"><i class="fa fa-graduation-cap"></i>Học vấn</a>
 										</li>
 										<li>
-											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
+											<a href="experience.php"><i class="fa fa-briefcase"></i> Kinh nghiệm</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Tệp đình kèm</a>
 										</li>
 										<li>
-											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
+											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Việc đã ứng tuyển</a>
 										</li>
 										<li>
-											<a href="../logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+											<a href="../logout.php"><i class="fa fa-sign-out"></i> Đăng xuất</a>
 										</li>
 									</ul>
 									
@@ -244,7 +244,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Professional Qualifications</h2>
+										<h2>Trình độ chuyên môn</h2>
 					
 										
 									</div>
@@ -310,8 +310,8 @@ $page = 1;
 													
 													<div class="resume-list-btn">
 													
-														<a data-toggle="modal" href="#edit<?php echo $row['id']; ?>" class="btn btn-primary btn-sm mb-5 mb-0-sm">Edit</a>
-									<a href="app/drop-qualification.php?id=<?php echo $row['id']; ?>" onclick = "return confirm('Are you sure you want to delete this qualification ?')" class="btn btn-primary btn-sm btn-inverse">Delete</a>
+														<a data-toggle="modal" href="#edit<?php echo $row['id']; ?>" class="btn btn-primary btn-sm mb-5 mb-0-sm">Sửa</a>
+									<a href="app/drop-qualification.php?id=<?php echo $row['id']; ?>" onclick = "return confirm('Are you sure you want to delete this qualification ?')" class="btn btn-primary btn-sm btn-inverse">Xóa</a>
 									<div id="edit<?php echo $row['id']; ?>" class="modal fade login-box-wrapper" tabindex="-1" data-width="550" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">
 			
 				                    <div class="modal-header">
@@ -325,9 +325,9 @@ $page = 1;
 									<div class="col-sm-12 col-md-12">
 												
 									<div class="form-group">
-									<label>Country</label>
+									<label>Quốc gia</label>
 									<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 										<?php
 										 require '../constants/db_config.php';
 										 try {
@@ -365,7 +365,7 @@ $page = 1;
 						            <div class="col-sm-12 col-md-12">
 				
 							        <div class="form-group"> 
-								    <label>Institution Name</label>
+								    <label>Tên tổ chức</label>
 								    <input class="form-control" value="<?php echo "$institution"; ?>" placeholder="Enter institution name" type="text" name="institution" required> 
 							        </div>
 						
@@ -374,7 +374,7 @@ $page = 1;
 						             <div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Course Title</label>
+								    <label>Tên khóa học</label>
 								    <input class="form-control" value="<?php echo "$course"; ?>" placeholder="Enter course name" type="text" name="course" required> 
 							        </div>
 						
@@ -383,7 +383,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Time Frame</label>
+								    <label>Thời gian</label>
 								    <input class="form-control" value="<?php echo "$timeframe"; ?>" placeholder="Eg: 2015 To 2016" type="text" name="timeframe" required> 
 							        </div>
 						
@@ -392,7 +392,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Attach your certificate <b>*(Leave blank if you dont want to update)*</b></label>
+								    <label>Đính kèm chứng chỉ <b>*(Để trống nếu không cập nhật)*</b></label>
 								    <input class="form-control" accept="application/pdf" type="file" name="certificate"> 
 							        </div>
 						
@@ -402,8 +402,8 @@ $page = 1;
 				                   </div>
 				                   <input type="hidden" name="courseid" value="<?php echo "$course_id"; ?>">
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -480,14 +480,14 @@ $page = 1;
 									
 									<div class="mt-30">
 									
-										<a data-toggle="modal" href="#QualifModal" class="btn btn-primary btn-lg">Add new</a>
+										<a data-toggle="modal" href="#QualifModal" class="btn btn-primary btn-lg">Thêm mới</a>
 										
 									</div>
 									<div id="QualifModal" class="modal fade login-box-wrapper" tabindex="-1" data-width="550" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">
 			
 				                    <div class="modal-header">
 					                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					                 <h4 class="modal-title text-center">Add professional qualifications</h4>
+					                 <h4 class="modal-title text-center">Bổ sung chuyên môn</h4>
 				                    </div>
 				
 				                    <div class="modal-body">
@@ -496,9 +496,9 @@ $page = 1;
 									<div class="col-sm-12 col-md-12">
 												
 									<div class="form-group">
-									<label>Country</label>
+									<label>Quốc gia</label>
 									<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 										<?php
 										 require '../constants/db_config.php';
 										 try {
@@ -537,7 +537,7 @@ $page = 1;
 						            <div class="col-sm-12 col-md-12">
 				
 							        <div class="form-group"> 
-								    <label>Institution Name</label>
+								    <label>Tên tổ chức</label>
 								    <input class="form-control" placeholder="Enter institution name" type="text" name="institution" required> 
 							        </div>
 						
@@ -546,7 +546,7 @@ $page = 1;
 						             <div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Course Title</label>
+								    <label>Tên khóa học</label>
 								    <input class="form-control" placeholder="Enter course name" type="text" name="course" required> 
 							        </div>
 						
@@ -555,7 +555,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Time Frame</label>
+								    <label>Thời gian</label>
 								    <input class="form-control" placeholder="Eg: 2015 To 2016" type="text" name="timeframe" required> 
 							        </div>
 						
@@ -564,7 +564,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-12">
 						
 							        <div class="form-group"> 
-								    <label>Attach your certificate</label>
+								    <label>Đính kèm chứng chỉ</label>
 								    <input class="form-control" accept="application/pdf" type="file" name="certificate" required> 
 							        </div>
 						
@@ -577,8 +577,8 @@ $page = 1;
 				         
 				
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -608,24 +608,24 @@ $page = 1;
 								<div class="row">
 								
 									<div class="col-sm-6 col-md-4">
-									
+										
 										<div class="footer-about-us">
 											<h5 class="footer-title">About Bwire Jobs</h5>
-											<p>Bwire Jobs is a job portal, online job management system developed by Bwire C Mashauri in february 2018.</p>
+											<p>Bwire Jobs là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Bwire C Mashauri vào tháng 2 năm 2018..</p>
 										
 										</div>
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+										<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
+											<li><a href="../">Trang chủ</a></li>
 											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
+											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>
 									
@@ -637,11 +637,11 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Bwire Jobs Contact</h5>
+								<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Dar es salaam, Tanzania PO.BOX 14859</p>
-								<p>Email : <a href="mailto:mashauri@programmer.net">mashauri@programmer.net</a></p>
-								<p>Phone : <a href="tel:+255689938643">+255 689 938 643</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -660,17 +660,17 @@ $page = 1;
 						<div class="row">
 						
 							<div class="col-sm-4 col-md-4">
-					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> BwireSoft</p>
-								
+							
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+				
 							</div>
-							
+			
 							<div class="col-sm-4 col-md-4">
-							
+			
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Bwire Charles Mashauri</a></li>
+									<li><a >Developed by Trungthanhzz</a></li>
 								</ul>
-							
+			
 							</div>
 							
 							<div class="col-sm-4 col-md-4">

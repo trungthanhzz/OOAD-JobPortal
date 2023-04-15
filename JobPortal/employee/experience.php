@@ -108,7 +108,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
@@ -121,7 +121,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../contact.php">Contact Us</a>
+								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -130,7 +130,7 @@ $page = 1;
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">đăng xuất</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
 							<li><a href="./">Hồ sơ</a></li>
 						</ul>
 					</div>
@@ -394,7 +394,7 @@ $page = 1;
 				                   </div>
 				
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
 					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
@@ -504,7 +504,7 @@ $page = 1;
 									 <div class="col-sm-6 col-md-6">
 				
 							        <div class="form-group"> 
-								    <label>Tên người giám sát/label>
+								    <label>Tên người giám sát</label>
 								    <input class="form-control" placeholder="Enter supervisor name" type="text" name="supervisor"> 
 							        </div>
 						
@@ -559,7 +559,7 @@ $page = 1;
 				                   </div>
 				
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
 					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
@@ -606,7 +606,7 @@ $page = 1;
 											<li><a href="../job-list.php">Job List</a></li>
 											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
 											<li><a href="../employees.php">Nhân viên</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
 											<li><a href="#">Lên đầu trang</a></li>
 
 										</ul>

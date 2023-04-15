@@ -108,7 +108,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
@@ -243,7 +243,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Academic Qualifications</h2>
+										<h2>Trình độ học vấn</h2>
 					
 										
 									</div>
@@ -325,9 +325,9 @@ $page = 1;
 									<div class="col-sm-12 col-md-12">
 												
 									<div class="form-group">
-									<label>Education Level</label>
+									<label>Trình độ học vấn</label>
 									<select name="level" required class="selectpicker show-tick form-control" data-live-search="false">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 									<option <?php if ($level == "Advanced Diploma") { print ' selected '; } ?> value="Advanced Diploma">Advanced Diploma</option>
                                     <option <?php if ($level == "Advanced Level (ACSE)") { print ' selected '; } ?>  value="Advanced Level (ACSE)">Advanced Level (ACSE)</option>
                                     <option <?php if ($level == "Certificate") { print ' selected '; } ?>  value="Certificate">Certificate</option>
@@ -347,7 +347,7 @@ $page = 1;
 									<div class="form-group">
 									<label>Country</label>
 									<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 						            <?php
 									$stmtb = $conn->prepare("SELECT * FROM tbl_countries ORDER BY country_name");
                                     $stmtb->execute();
@@ -417,8 +417,8 @@ $page = 1;
 				                   </div>
 				                   <input type="hidden" name="courseid" value="<?php echo "$course_id"; ?>">
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -520,7 +520,7 @@ $page = 1;
 									<div class="form-group">
 									<label>Education Level</label>
 									<select name="level" required class="selectpicker show-tick form-control" data-live-search="false">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 									<option value="Advanced Diploma">Advanced Diploma</option>
                                     <option value="Advanced Level (ACSE)">Advanced Level (ACSE)</option>
                                     <option value="Certificate">Certificate</option>
@@ -541,7 +541,7 @@ $page = 1;
 									<div class="form-group">
 									<label>Country</label>
 									<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
-									<option disabled value="">Select</option>
+									<option disabled value="">Chọn</option>
 						            <?php
 									$stmtb = $conn->prepare("SELECT * FROM tbl_countries ORDER BY country_name");
                                     $stmtb->execute();
@@ -611,8 +611,8 @@ $page = 1;
 				                   </div>
 				
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Submit</button>
-					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+				 	               <button type="submit" class="btn btn-primary">Nộp</button>
+					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				                   </div>
 				                   </form>
 			                       </div>
@@ -644,41 +644,42 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+												<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
+												<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
+											
+											</div>
+
+
+										</div>
+										
+										<div class="col-sm-6 col-md-5 mt-30-xs">
+											<h5 class="footer-title">Liên kết nhanh</h5>
+											<ul class="footer-menu clearfix">
+												<li><a href="../">Trang chủ</a></li>
+												<li><a href="../job-list.php">Job List</a></li>
+												<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+												<li><a href="../employees.php">Nhân viên</a></li>
+												<li><a href="../contact.php">Liên hệ</a></li>
+												<li><a href="#">Lên đầu trang</a></li>
+
+											</ul>
 										
 										</div>
 
 									</div>
-									
-									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
-										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
-											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
-
-										</ul>
-									
-									</div>
 
 								</div>
-
-							</div>
-							
-							<div class="col-sm-12 col-md-3 mt-30-sm">
-							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<div class="col-sm-12 col-md-3 mt-30-sm">
 								
+									<h5 class="footer-title">Jobs Portal Contact</h5>
+									
+									<p>Address : Công ty THHH KHOA TỊNH</p>
+									<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+									<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
+									
 
-							</div>
+								</div>
 
 							
 						</div>
@@ -693,18 +694,19 @@ $page = 1;
 					
 						<div class="row">
 						
-							<div class="col-sm-4 col-md-4">
-					<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
-								
-							</div>
+						<div class="col-sm-4 col-md-4">
 							
-							<div class="col-sm-4 col-md-4">
-							
-								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
-								</ul>
-							
-							</div>
+							<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+				
+						</div>
+			
+						<div class="col-sm-4 col-md-4">
+			
+							<ul class="bottom-footer-menu">
+								<li><a >Developed by Trungthanhzz</a></li>
+							</ul>
+			
+						</div>
 							
 							<div class="col-sm-4 col-md-4">
 								<ul class="bottom-footer-menu for-social">

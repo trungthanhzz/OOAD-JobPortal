@@ -140,7 +140,7 @@ header("location:./");
 							</li>
 							
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
@@ -148,13 +148,6 @@ header("location:./");
 								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
 							
-							<li>
-								<a href="employees.php">Nhân viên</a>
-							</li>
-							
-							<li>
-								<a href="contact.php">Contact Us</a>
-							</li>
 
 						</ul>
 				
@@ -196,10 +189,10 @@ header("location:./");
 					<div class="row gap-20">
 					
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Employer</a>
+							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Đăng ký</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Employee</a>
+							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Nhà tuyển dụng</a>
 						</div>
 
 					</div>

@@ -190,7 +190,7 @@ $page = 1;
 				
 					<ol class="breadcrumb-list booking-step">
 						<li><a href="./">Trang chủ</a></li>
-						<li><span>Employers</span></li>
+						<li><span>Nhà tuyển dụng</span></li>
 					</ol>
 					
 				</div>
@@ -209,7 +209,7 @@ $page = 1;
 							<div class="GridLex-col-3_sm-12_xs-12">
 							
 								<div class="sorting-header">
-									<h3 class="sorting-title">Employers</h3>
+									<h3 class="sorting-title">Nhà tuyển dụng</h3>
 								</div>
 								
 							</div>
@@ -354,7 +354,7 @@ $page = 1;
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									

@@ -124,7 +124,7 @@ include 'constants/check-login.php';
 						print '
 							<li><a href="login.php">Đăng nhập</a></li>
 							<li><a data-toggle="modal" href="register.php?p=Employee">Đăng ký</a></li>
-							<li><a data-toggle="modal" href="register.php?p=Employer">Tài khoản nhà tuyển dụng</a></li>';
+							<li><a data-toggle="modal" href="register.php?p=Employer">Nhà tuyển dụng</a></li>';
 							// chinh href
 						}
 						
@@ -341,8 +341,8 @@ include 'constants/check-login.php';
 
 					<div class="row">
 						<div class ="col-sm-6">
-							<h1 class="marketing-h1"><b>Build your career with us</b></h1>
-							<h3>Find your dream community in the network that connects thousands of professionals with great jobs.</h3>
+							<h1 class="marketing-h1"><b>Xây dựng sự nghiệp của bạn với chúng tôi</b></h1>
+							<h3>Tìm cộng đồng ước mơ của bạn cùng kết nối hàng nghìn chuyên gia với những công việc tuyệt vời.</h3>
 						</div>
 						
 						<div class ="col-sm-6">
@@ -440,11 +440,11 @@ include 'constants/check-login.php';
 						</div>
 
 						<div class ="col-sm-6">
-							<h1 class="getting-started-h1"><b>Let the jobs find you</b></h1>
-							<h3>Tell us more about your goals and we'll match you with the right jobs to help you reach them.</h3>
+							<h1 class="getting-started-h1"><b>Hãy để việc làm tìm thấy bạn</b></h1>
+							<h3>Hãy cho chúng tôi biết thêm về mục tiêu của bạn và chúng tôi sẽ sắp xếp cho bạn những công việc tốt.</h3>
 						</div>
 
-						<a type="button" href="job-list.php" class="btn-getting-started">Find Jobs</a>
+						<a type="button" href="job-list.php" class="btn-getting-started">Tìm việc ngay!</a>
 						
 						<!-- <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 						
@@ -575,9 +575,9 @@ include 'constants/check-login.php';
 					<div class="row">
 
 						<div class ="col-sm-6">
-							<h1 class="getting-started-h1"><b>Skip the paperwork</b></h1>
-							<h3>Your profile is your application. Apply to jobs instantly.</h3>
-							<a type="button" href="register.php?p=Employee" class="btn-getting-started-cf">Create Profile</a>
+							<h1 class="getting-started-h1"><b>Thủ tục, hồ sơ</b></h1>
+							<h3>Hồ sơ quyết định bản thân bạn, áp dụng cho công việc ngay lập tức</h3>
+							<a type="button" href="register.php?p=Employee" class="btn-getting-started-cf">Tạo hồ sơ</a>
 						</div>
 						
 						<div class ="col-sm-6">
@@ -621,7 +621,7 @@ include 'constants/check-login.php';
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									

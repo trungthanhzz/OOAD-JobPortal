@@ -131,8 +131,8 @@ $page = 1;
 			<?php
 			if ($user_online == true) {
 			print '
-				<li><a href="logout.php">Logout</a></li>
-				<li><a href="'.$myrole.'">Profile</a></li>';
+				<li><a href="logout.php">Đăng xuất</a></li>
+				<li><a href="'.$myrole.'">Hồ sơ</a></li>';
 			}else{
 			print '
 				<li><a href="login.php">Login</a></li>
@@ -492,7 +492,7 @@ $page = 1;
 				
 							        <div class="form-group"> 
 								    <label>Tệp khác</label>
-								    <input class="form-control" placeholder="Eg: birth certificate, driving licence" type="text" name="title" required> 
+								    <input class="form-control" placeholder="Tên tệp đính kèm..." type="text" name="title" required> 
 							        </div>
 						
 						             </div>
@@ -501,7 +501,7 @@ $page = 1;
 						
 							        <div class="form-group"> 
 								    <label>Tổ chức</label>
-								    <input class="form-control" placeholder="Enter issuer" type="text" name="issuer" required> 
+								    <input class="form-control" placeholder="Nhập tên tổ chức.." type="text" name="issuer" required> 
 							        </div>
 						
 						           </div>

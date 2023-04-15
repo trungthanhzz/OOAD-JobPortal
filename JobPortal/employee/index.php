@@ -98,13 +98,6 @@ header("location:../");
 								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
-							<li>
-								<a href="../employees.php">Nhân viên</a>
-							</li>
-							
-							<li>
-								<a href="../contact.php">Liên hệ</a>
-							</li>
 
 						</ul>
 				
@@ -113,7 +106,7 @@ header("location:../");
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
 							<li><a href="../logout.php">Đăng xuất</a></li>
-							<li><a href="./">Hồ sơ</a></li>
+							<li><a href="./">Trợ giúp</a></li>
 						</ul>
 					</div>
 				
@@ -242,7 +235,7 @@ header("location:../");
 												
 													<div class="form-group">
 														<label>Họ tên</label>
-														<input name="fname" required type="text" class="form-control" value="<?php echo "$myfname"; ?>" placeholder="Enter your full name">
+														<input name="fname" required type="text" class="form-control" value="<?php echo "$myfname"; ?>" placeholder="Nhập tên của bạn...">
 													</div>
 													
 												</div>
@@ -251,7 +244,7 @@ header("location:../");
 												
 													<div class="form-group">
 														<label>Email</label>
-														<input name="lname" required type="email" class="form-control" value="<?php echo "$mylname"; ?>" placeholder="Enter your email">
+														<input name="lname" required type="email" class="form-control" value="<?php echo "$mylname"; ?>" placeholder="Nhập email của bạn...">
 													</div>
 													
 												</div>
@@ -261,7 +254,7 @@ header("location:../");
 												<div class="col-sm-6 col-md-4">
 												
 													<div class="form-group">
-														<label>Sinh</label>
+														<label>Ngày sinh</label>
 														<div class="row gap-5">
 															<div class="col-xs-3 col-sm-3">
 																<select name="date" required class="selectpicker form-control" data-live-search="false">
@@ -323,7 +316,7 @@ header("location:../");
 												
 													<div class="form-group">
 														<label>Tên tài khoản</label>
-														<input type="text" name="email" required class="form-control" value="<?php echo "$myemail"; ?>" placeholder="Enter your email address">
+														<input type="text" name="email" required class="form-control" value="<?php echo "$myemail"; ?>" placeholder="Nhập tài khoản">
 													</div>
 													
 												</div>
@@ -337,11 +330,11 @@ header("location:../");
 													</div>
 													
 													<div class="col-sm-6 col-md-4">
-                                                    <input value="<?php echo "$myedu"; ?>" name="education" type="text" required class="form-control" placeholder="Eg: Diploma, Degree...etc">
+                                                    <input value="<?php echo "$myedu"; ?>" name="education" type="text" required class="form-control" placeholder="">
 													</div>
 													
 													<div class="col-sm-6 col-md-4">
-														<input value="<?php echo "$mytitle"; ?>" name="title" required type="text" class="form-control mb-15" placeholder="Eg: Computer Science, IT...etc">
+														<input value="<?php echo "$mytitle"; ?>" name="title" required type="text" class="form-control mb-15" placeholder="">
 													</div>
 														
 												</div>
@@ -376,7 +369,7 @@ header("location:../");
 												<div class="col-sm-6 col-md-4">
 												
 													<div class="form-group">
-														<label>Đường</label>
+														<label>Quận, huyện</label>
 														<input name="street" required type="text" class="form-control" value="<?php echo "$mystreet"; ?>">
 													</div>
 													
@@ -384,7 +377,7 @@ header("location:../");
 												<div class="col-sm-6 col-md-4">
 												
 													<div class="form-group">
-														<label>Mã bưu chính</label>
+														<label>Phường</label>
 														<input name="zip" required type="text" class="form-control" value="<?php echo "$myzip"; ?>">
 													</div>
 													
@@ -447,7 +440,7 @@ header("location:../");
 												
 													<div class="form-group bootstrap3-wysihtml5-wrapper">
 														<label>About me</label>
-														<textarea name="about" class="bootstrap3-wysihtml5 form-control" placeholder="Enter your short description ..." style="height: 200px;"><?php echo "$mydesc"; ?></textarea>
+														<textarea name="about" class="bootstrap3-wysihtml5 form-control" placeholder="Nội dung ..." style="height: 200px;"><?php echo "$mydesc"; ?></textarea>
 													</div>
 													
 												</div>
@@ -527,11 +520,11 @@ header("location:../");
 									<h5 class="footer-title">Liên kết nhanh</h5>
 									<ul class="footer-menu clearfix">
 										<li><a href="../">Trang chủ</a></li>
-										<li><a href="../job-list.php">Job List</a></li>
+										<li><a href="../job-list.php">Danh sách</a></li>
 										<li><a href="../employers.php">Nhà tuyển dụng</a></li>
 										<li><a href="../employees.php">Nhân viên</a></li>
 										<li><a href="../contact.php">Liên hệ</a></li>
-										<li><a href="#">Lên đầu trang</a></li>
+									
 
 									</ul>
 								

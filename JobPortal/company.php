@@ -146,7 +146,7 @@ $page = 1;
 							</li>
 							
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
@@ -154,14 +154,7 @@ $page = 1;
 								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
 							
-							<li>
-								<a href="employees.php">Nhân viên</a>
-							</li>
 							
-							<li>
-								<a href="contact.php">Contact Us</a>
-							</li>
-
 						</ul>
 				
 					</div>
@@ -171,12 +164,12 @@ $page = 1;
 						<?php
 						if ($user_online == true) {
 						print '
-						    <li><a href="logout.php">logout</a></li>
-							<li><a href="'.$myrole.'">Profile</a></li>';
+						    <li><a href="logout.php">Đăng xuất</a></li>
+							<li><a href="'.$myrole.'">Hồ sơ</a></li>';
 						}else{
 						print '
-							<li><a href="login.php">login</a></li>
-							<li><a data-toggle="modal" href="#registerModal">register</a></li>';						
+							<li><a href="login.php">Đăng nhập</a></li>
+							<li><a data-toggle="modal" href="#registerModal">Đăng ký</a></li>';						
 						}
 						
 						?>
@@ -200,7 +193,7 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="employers.php">Employers</a></li>
+						<li><a href="employers.php">Nhà tuyển dụng</a></li>
 						<li><span><?php echo "$compname"; ?></span></li>
 					</ol>
 					
@@ -258,16 +251,16 @@ $page = 1;
 						
 									<div class="company-detail-company-overview clearfix">
 									
-										<h3>Company background</h3>
+										<h3>Tổng quan</h3>
 										
 										<p><?php echo "$compbout"; ?></p>
 
 										
-										<h3>Services</h3>
+										<h3>Dịch vụ</h3>
 										
 										<p><?php echo "$compserv"; ?></p>
 										
-										<h3>Expertise</h3>
+										<h3>Chuyên môn</h3>
 										
 										<p><?php echo "$compexp"; ?></p>
 										
@@ -276,7 +269,7 @@ $page = 1;
 									
 									<div class="section-title mb-40">
 						
-										<h4 class="text-left">jobs offered at <?php echo "$compname"; ?></h4>
+										<h4 class="text-left">Cung cấp tại <?php echo "$compname"; ?></h4>
 										
 									</div>
 
@@ -478,7 +471,7 @@ $page = 1;
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									

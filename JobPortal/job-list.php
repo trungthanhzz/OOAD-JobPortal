@@ -140,8 +140,8 @@ $title = "Job List";
 			<?php
 			if ($user_online == true) {
 			print '
-				<li><a href="logout.php">logout</a></li>
-				<li><a href="'.$myrole.'">Profile</a></li>';
+				<li><a href="logout.php">Đăng xuất</a></li>
+				<li><a href="'.$myrole.'">Trợ giúp</a></li>';
 			}else{
 			print '
 				<li><a href="login.php">Đăng nhập</a></li>
@@ -203,7 +203,7 @@ $title = "Job List";
 					<form action="job-list.php" method="GET" autocomplete="off">
 					
 						<div class="second-search-result-inner">
-							<span class="labeling">Search a job</span>
+							<span class="labeling">Tìm kiếm</span>
 							<div class="row">
 							
 								<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
@@ -279,7 +279,7 @@ $title = "Job List";
 								</div>
 								
 								<div class="col-xss-12 col-xs-6 col-sm-4 col-md-2">
-									<button name="search" value="✓" type="submit" class="btn btn-block">Search</button>
+									<button name="search" value="✓" type="submit" class="btn btn-block">Tìm</button>
 								</div>
 							
 							</div>
@@ -400,19 +400,19 @@ $title = "Job List";
 													<div class="col-sm-5 col-md-4">
 														<ul class="meta-list">
 															<li>
-																<span>Country:</span>
+																<span>Quốc gia:</span>
 																<?php echo $row['country']; ?>
 															</li>
 															<li>
-																<span>City:</span>
+																<span>Thành phố:</span>
 																<?php echo $row['city']; ?>
 															</li>
 															<li>
-																<span>Experience:</span>
+																<span>Kinh nghiệm:</span>
 																<?php echo $row['experience']; ?>
 															</li>
 															<li>
-																<span>Deadline: </span>
+																<span>Thời gian: </span>
 																<?php echo "$post_month"; ?> <?php echo "$post_date"; ?>, <?php echo "$post_year"; ?>
 															</li>
 														</ul>
@@ -534,7 +534,7 @@ $title = "Job List";
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									

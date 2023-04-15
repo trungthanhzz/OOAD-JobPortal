@@ -566,7 +566,7 @@ $page = 1;
 						            <div class="col-sm-6 col-md-6">
 				
 							        <div class="form-group"> 
-								    <label>Institution Name</label>
+								    <label>Tên tổ chức</label>
 								    <input class="form-control" placeholder="Enter institution name" type="text" name="institution" required> 
 							        </div>
 						
@@ -575,7 +575,7 @@ $page = 1;
 						             <div class="col-sm-12 col-md-6">
 						
 							        <div class="form-group"> 
-								    <label>Course Title</label>
+								    <label>Tên khóa học</label>
 								    <input class="form-control" placeholder="Enter course name" type="text" name="course" required> 
 							        </div>
 						
@@ -584,7 +584,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-6">
 						
 							        <div class="form-group"> 
-								    <label>Time Frame</label>
+								    <label>Thời gian</label>
 								    <input class="form-control" placeholder="Eg: 2015 To 2016" type="text" name="timeframe" required> 
 							        </div>
 						
@@ -593,7 +593,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-6">
 						
 							        <div class="form-group"> 
-								    <label>Attach your certificate</label>
+								    <label>Đính kèm chứng chỉ</label>
 								    <input class="form-control" accept="application/pdf" type="file" name="certificate" required> 
 							        </div>
 						
@@ -602,7 +602,7 @@ $page = 1;
 								   	<div class="col-sm-12 col-md-6">
 						
 							        <div class="form-group"> 
-								    <label>Academic Transcript</label>
+								    <label>Bảng điểm</label>
 								    <input class="form-control" accept="application/pdf" type="file" name="transcript" required> 
 							        </div>
 					

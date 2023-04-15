@@ -17,7 +17,7 @@ $token = $_GET['token'];
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Reset Password</title>
+	<title>Jobs Portal - Đặt lại mật khẩu</title>
 	
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
@@ -78,25 +78,17 @@ $token = $_GET['token'];
 						
 							<li>
 							
-								<a href="./">Home</a>
+								<a href="./">Trang chủ</a>
 								
 							</li>
 							
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Danh sách công việc</a>
 
 							</li>
 							
 							<li>
-								<a href="employers.php">Employers</a>
-							</li>
-							
-							<li>
-								<a href="employees.php">Employees</a>
-							</li>
-							
-							<li>
-								<a href="contact.php">Contact Us</a>
+								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
 
 						</ul>
@@ -105,8 +97,8 @@ $token = $_GET['token'];
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a  href="login.php">login</a></li>
-							<li><a data-toggle="modal" href="#registerModal">register</a></li>
+							<li><a  href="login.php">Đăng nhập</a></li>
+							<li><a data-toggle="modal" href="#registerModal">Đăng ký</a></li>
 						</ul>
 					</div>
 				
@@ -120,7 +112,7 @@ $token = $_GET['token'];
 			
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title text-center">Create your account for free</h4>
+					<h4 class="modal-title text-center">Tạo tài khoản</h4>
 				</div>
 				
 				<div class="modal-body">
@@ -128,10 +120,10 @@ $token = $_GET['token'];
 					<div class="row gap-20">
 					
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Employer</a>
+							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Đăng ký</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Employee</a>
+							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Nhà tuyển dụng</a>
 						</div>
 
 					</div>
@@ -139,7 +131,7 @@ $token = $_GET['token'];
 				</div>
 				
 				<div class="modal-footer text-center">
-					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				</div>
 				
 			</div>
@@ -158,8 +150,8 @@ $token = $_GET['token'];
 				<div class="container">
 				
 					<ol class="breadcrumb-list">
-						<li><a href="./">Home</a></li>
-						<li><span>Reset Password</span></li>
+						<li><a href="./">Trang chủ</a></li>
+						<li><span>Đặt lại mật khẩu</span></li>
 					</ol>
 					
 				</div>
@@ -185,7 +177,7 @@ $token = $_GET['token'];
                                 <div class="login-box-wrapper">
 							
                                 <div class="modal-header">
-                                <h4 class="modal-title text-center">Reset your password</h4>
+                                <h4 class="modal-title text-center">Đặt lại mật khẩu</h4>
                                 </div>
 
                                 <div class="modal-body">
@@ -232,7 +224,7 @@ $token = $_GET['token'];
                                 <div class="col-sm-12 col-md-12">
 												
                                 <div class="form-group"> 
-                                <label>Confirm New Password</label>
+                                <label>Xác nhận mật khẩu mới</label>
                                 <input class="form-control" placeholder="Min 8 and Max 20 characters" name="confirmpassword" required type="password"> 
                                 </div>
 												
@@ -297,44 +289,45 @@ print '
 							
 								<div class="row">
 								
-									<div class="col-sm-6 col-md-4">
+								<div class="col-sm-6 col-md-4">
 									
-										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
-										
-										</div>
-
-									</div>
-									
-									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
-										<ul class="footer-menu clearfix">
-											<li><a href="./">Home</a></li>
-											<li><a href="job-list.php">Job List</a></li>
-											<li><a href="employers.php">Employers</a></li>
-											<li><a href="employees.php">Employees</a></li>
-											<li><a href="contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
-
-										</ul>
+									<div class="footer-about-us">
+										<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
+										<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 									
 									</div>
 
+
+								</div>
+								
+								<div class="col-sm-6 col-md-5 mt-30-xs">
+									<h5 class="footer-title">Liên kết nhanh</h5>
+									<ul class="footer-menu clearfix">
+										<li><a href="../">Trang chủ</a></li>
+										<li><a href="../job-list.php">Job List</a></li>
+										<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+										<li><a href="../employees.php">Nhân viên</a></li>
+										<li><a href="../contact.php">Contact Us</a></li>
+										<li><a href="#">Lên đầu trang</a></li>
+
+									</ul>
+								
 								</div>
 
 							</div>
-							
-							<div class="col-sm-12 col-md-3 mt-30-sm">
-							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
-								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
-								
 
-							</div>
+						</div>
+						
+						<div class="col-sm-12 col-md-3 mt-30-sm">
+						
+							<h5 class="footer-title">Jobs Portal Contact</h5>
+							
+							<p>Address : Công ty THHH KHOA TỊNH</p>
+							<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+							<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
+							
+
+						</div>
 
 							
 						</div>
@@ -349,19 +342,19 @@ print '
 					
 						<div class="row">
 						
-							<div class="col-sm-4 col-md-4">
+						<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
-								
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-							
-								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
-								</ul>
-							
-							</div>
+					<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+					
+				</div>
+				
+				<div class="col-sm-4 col-md-4">
+				
+					<ul class="bottom-footer-menu">
+						<li><a >Developed by Trungthanhzz</a></li>
+					</ul>
+				
+				</div>
 							
 							<div class="col-sm-4 col-md-4">
 								<ul class="bottom-footer-menu for-social">

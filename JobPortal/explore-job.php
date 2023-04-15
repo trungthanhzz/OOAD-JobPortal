@@ -111,7 +111,7 @@ $jobexpired = false;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - <?php echo "$jobtitle"; ?></title>
+	<title>Jobs Portal - <?php echo "$jobtitle"; ?></title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -205,26 +205,19 @@ $jobexpired = false;
 						
 							<li>
 							
-								<a href="./">Home</a>
+								<a href="./">Trang chủ</a>
 								
 							</li>
 							
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
 							<li>
-								<a href="employers.php">Employers</a>
+								<a href="employers.php">Nhà tuyển dụng</a>
 							</li>
-							
-							<li>
-								<a href="employees.php">Employees</a>
-							</li>
-							
-							<li>
-								<a href="contact.php">Contact Us</a>
-							</li>
+						
 
 						</ul>
 				
@@ -235,12 +228,12 @@ $jobexpired = false;
 						<?php
 						if ($user_online == true) {
 						print '
-						    <li><a href="logout.php">logout</a></li>
-							<li><a href="'.$myrole.'">Profile</a></li>';
+						    <li><a href="logout.php">Đăng xuất</a></li>
+							<li><a href="'.$myrole.'">Trợ giúp</a></li>';
 						}else{
 						print '
-							<li><a href="login.php">login</a></li>
-							<li><a data-toggle="modal" href="#registerModal">register</a></li>';						
+							<li><a href="login.php">Đăng nhập</a></li>
+							<li><a data-toggle="modal" href="#registerModal">Đăng ký</a></li>';						
 						}
 						
 						?>
@@ -260,7 +253,7 @@ $jobexpired = false;
 			
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title text-center">Create your account for free</h4>
+					<h4 class="modal-title text-center">Tạo tài khoản</h4>
 				</div>
 				
 				<div class="modal-body">
@@ -268,10 +261,10 @@ $jobexpired = false;
 					<div class="row gap-20">
 					
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Employer</a>
+							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Đăng ký</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Employee</a>
+							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Nhà tuyển dụng</a>
 						</div>
 
 					</div>
@@ -279,7 +272,7 @@ $jobexpired = false;
 				</div>
 				
 				<div class="modal-footer text-center">
-					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
+					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Đóng</button>
 				</div>
 				
 			</div>
@@ -290,7 +283,7 @@ $jobexpired = false;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="job-list.php">All jobs</a></li>
+						<li><a href="job-list.php">Tất cả công việc</a></li>
 						<li><a target="_blank" href="company.php?ref=<?php echo "$compid"; ?>"><?php echo "$compname"; ?></a></li>
 						<li><span><?php echo "$jobtitle"; ?></span></li>
 					</ol>
@@ -320,19 +313,19 @@ $jobexpired = false;
 									
 									<ul class="meta-list clearfix">
 										<li>
-											<h4 class="heading">Location:</h4>
+											<h4 class="heading">Vị trí:</h4>
 											<?php echo "$jobcity"; ?> , <?php echo "$jobcountry"; ?>
 										</li>
 										<li>
-											<h4 class="heading">Deadline:</h4>
+											<h4 class="heading">Thời gian:</h4>
 											<?php echo "$post_month"; ?> <?php echo "$post_date"; ?>, <?php echo "$post_year"; ?>
 										</li>
 										<li>
-											<h4 class="heading">Experience</h4>
+											<h4 class="heading">Kinh nghiệm:</h4>
 											<?php echo "$experience"; ?> 
 										</li>
 										<li>
-											<h4 class="heading">Posted: </h4>
+											<h4 class="heading">Đã đăng tải: </h4>
 											<?php echo "$opendate"; ?>
 										</li>
 									</ul>
@@ -341,7 +334,7 @@ $jobexpired = false;
 					
 								<div class="job-detail-company-overview clearfix">
 								
-									<h3>Company overview</h3>
+									<h3>Tổng quan</h3>
 									<div class="image">
 										<?php 
 										if ($complogo == null) {
@@ -358,16 +351,16 @@ $jobexpired = false;
 								
 								<div class="job-detail-content mt-30 clearfix">
 								
-									<h3>Job Description</h3>
+									<h3>Mô tả công việc</h3>
 
 									<p><?php echo "$jobdescription"; ?></p>
 
 									
-									<h3>Job Responsibilities</h3>
+									<h3>Trách nhiệm công việc:</h3>
 									
                                     <p><?php echo "$jobrespo"; ?></p>
 									
-									<h3>Requirements:</h3>
+									<h3>Yêu cầu:</h3>
                                     <p><?php echo "$jobreq"; ?></p>
 								
 								</div>
@@ -381,7 +374,7 @@ $jobexpired = false;
 								if ($myrole == "employee") {
                                 print '<button';?> onclick="update(this.value)" <?php print ' value="'.$jobid.'" class="btn btn-primary btn-hidden btn-lg collapsed"><i class="flaticon-line-icon-set-pencil"></i> Apply this job</button>';
 								}else{
-								print '<button class="btn btn-primary disabled btn-hidden btn-lg collapsed"><i class="flaticon-line-icon-set-padlock"></i> Login as employee to apply</button>';
+								print '<button class="btn btn-primary disabled btn-hidden btn-lg collapsed"><i class="flaticon-line-icon-set-padlock"></i> Đăng nhập như nhân viên để áp dụng</button>';
 								}	
 								}
 
@@ -400,7 +393,7 @@ $jobexpired = false;
 								<div class="tab-style-01">
 								
 									<ul class="nav" role="tablist">
-										<li role="presentation" class="active"><h4><a href="#relatedJob1" role="tab" data-toggle="tab">More jobs from <?php echo "$compname"; ?></a></h4></li>
+										<li role="presentation" class="active"><h4><a href="#relatedJob1" role="tab" data-toggle="tab">Thêm việc làm tại <?php echo "$compname"; ?></a></h4></li>
 									</ul>
 
 									<div class="tab-content">
@@ -525,7 +518,7 @@ $jobexpired = false;
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									
@@ -553,11 +546,11 @@ $jobexpired = false;
 						
 						<div class="col-sm-10 col-md-8 mt-30-sm">
 						
-							<h5 class="footer-title">Contact</h5>
+							<h5 class="footer-title">Liên hệ</h5>
 							
-							<p>Address : Hanoi-University of Engineering and Technology</p>
-							<p>Email : <a href="">nani@gmail.com</a></p>
-							<p>Phone : <a href="">+84 837388348</a></p>
+							<p>Address : 144 Xuan Thuy, Dich Vong Hau, Cau Giay, HN</p>
+							<p>Email : <a href="">syhungg0909@gmail.com</a></p>
+							<p>Phone : <a href="">+84 398956789</a></p>
 							
 
 						</div>
@@ -569,10 +562,10 @@ $jobexpired = false;
 						<img class="img-map" src="images/UET-address-map.png" alt="">
 					</div>
 					
-				</div>
-				<div class="copyr">
-					<p>Copyright by Group 6 2223I_INT3110E_41</p>
-				</div>	
+					</div>
+					<div class="copyr">
+						<p>Copyright by Group 8 2223II_INT3110_2</p>
+					</div>	
 				<div class="social-cov" >
 							<ul class="bottom-footer-menu for-social margin-auto-lr">
 								<li><a href="<?php echo "$tw"; ?>"><i class="ri ri-twitter" data-toggle="tooltip" data-placement="top" title="twitter"></i></a></li>

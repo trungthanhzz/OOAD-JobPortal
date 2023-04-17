@@ -122,8 +122,8 @@ $page = 1;
 			<?php
 			if ($user_online == true) {
 			print '
-				<li><a href="logout.php">logout</a></li>
-				<li><a href="'.$myrole.'">Profile</a></li>';
+				<li><a href="logout.php">Đăng xuất</a></li>
+				<li><a href="'.$myrole.'">Trợ giúp</a></li>';
 			}else{
 			print '
 				<li><a href="login.php">Login</a></li>
@@ -364,7 +364,7 @@ $page = 1;
 								<div class="col-sm-8 col-md-8">
 								
 									<div class="footer-about-us">
-										<h5 class="footer-title">About Us</h5>
+										<h5 class="footer-title">Về chúng tôi</h5>
 										<img src="images\findjobtransnoname.png" class="max-width-30" alt="">
 										<p></p>
 									

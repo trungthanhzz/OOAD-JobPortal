@@ -86,30 +86,30 @@ $page = 1;
 					</div>
 					
 					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
-					
-						<ul class="nav navbar-nav" id="responsive-menu">
 						
+						<ul class="nav navbar-nav" id="responsive-menu">
+							
 							<li>
 							
-								<a href="../">Home</a>
+								<a href="../">Trang chủ</a>
 								
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
-								<a href="../contact.php">Contact Us</a>
+								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -118,8 +118,8 @@ $page = 1;
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">logout</a></li>
-							<li><a href="./">Profile</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
+							<li><a href="./">Trợ giúp</a></li>
 						</ul>
 					</div>
 				
@@ -140,7 +140,7 @@ $page = 1;
 				
 					<ol class="breadcrumb-list booking-step">
 						<li><a href="../">Bwire Jobs</a></li>
-						<li><span>My Jobs</span></li>
+						<li><span>Việc của tôi</span></li>
 					</ol>
 					
 				</div>
@@ -166,7 +166,7 @@ $page = 1;
 										<div class="image">
 										<?php 
 										if ($logo == null) {
-										print '<center>Company Logo Here</center>';
+										print '<center>Logo Công ty</center>';
 										}else{
 										echo '<center><img alt="image" title="'.$compname.'" width="180" height="100" src="data:image/jpeg;base64,'.base64_encode($logo).'"/></center>';	
 										}
@@ -179,26 +179,26 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a href="post-job.php" class="btn btn-primary btn-sm btn-inverse">Post a Job</a>
+										<a href="post-job.php" class="btn btn-primary btn-sm btn-inverse">Tạo việc làm</a>
 										
 									</div>
 									
 									<ul class="admin-user-menu clearfix">
-										<li >
-											<a href="./"><i class="fa fa-user"></i> Profile</a>
+										<li  class="active">
+											<a href="./"><i class="fa fa-user"></i> Hồ sơ</a>
 										</li>
 										<li class="">
-										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
+										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
 										</li>
 			
 										<li>
-											<a href="../company.php?ref=<?php echo "$myid"; ?>"><i class="fa fa-briefcase"></i> Company Overview</a>
-										</li>
-										<li  class="active">
-											<a href="my-jobs.php"><i class="fa fa-bookmark"></i> Posted Jobs</a>
+											<a href="../company.php?ref=<?php echo "$myid"; ?>"><i class="fa fa-briefcase"></i> Tổng quan</a>
 										</li>
 										<li>
-											<a href="../logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+											<a href="my-jobs.php"><i class="fa fa-bookmark"></i> Công việc đã đăng</a>
+										</li>
+										<li>
+											<a href="../logout.php"><i class="fa fa-sign-out"></i> Đăng xuất</a>
 										</li>
 									</ul>
 									
@@ -212,7 +212,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Posted Jobs</h2>
+										<h2>Công việc đã đăng</h2>
 										
 									</div>
 									<?php require 'constants/check_reply.php'; ?>
@@ -391,22 +391,22 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+										<h5 class="footer-title">Giới thiệu Jobs Portal </h5>
+											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 										
 										</div>
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+									<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
-											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="../">Trang chủ</a></li>
+											<li><a href="../job-list.php">Danh sách</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
+										
 
 										</ul>
 									
@@ -418,11 +418,11 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-							<h5 class="footer-title">Nightingale Jobs Contact</h5>
+							<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -443,14 +443,14 @@ $page = 1;
 							<div class="col-sm-4 col-md-4">
 					
 								
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
-								
+							<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+					
 							</div>
-							
+				
 							<div class="col-sm-4 col-md-4">
-							
+				
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
+									<li><a >Developed by Trungthanhzz</a></li>
 								</ul>
 							
 							</div>

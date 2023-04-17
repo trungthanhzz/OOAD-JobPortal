@@ -193,7 +193,7 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="employers.php">Nhà tuyển dụng</a></li>
+						<li><a href="employers.php">Công ty</a></li>
 						<li><span><?php echo "$compname"; ?></span></li>
 					</ol>
 					

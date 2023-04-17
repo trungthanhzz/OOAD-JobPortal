@@ -119,10 +119,7 @@ $page = 1;
 							<li>
 								<a href="../employees.php">Nhân viên</a>
 							</li>
-							
-							<li>
-								<a href="../contact.php">Contact Us</a>
-							</li>
+						
 
 						</ul>
 				

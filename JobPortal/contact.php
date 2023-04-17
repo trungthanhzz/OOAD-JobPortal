@@ -98,8 +98,8 @@ include 'constants/check-login.php';
 			<?php
 			if ($user_online == true) {
 			print '
-				<li><a href="logout.php">logout</a></li>
-				<li><a href="'.$myrole.'">Profile</a></li>';
+				<li><a href="logout.php">Đăng xuất</a></li>
+				<li><a href="'.$myrole.'">Trợ giúp</a></li>';
 			}else{
 			print '
 				<li><a href="login.php">Đăng nhập</a></li>

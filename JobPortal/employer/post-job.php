@@ -20,7 +20,7 @@ header("location:../");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Post Job</title>
+	<title>Jobs Portal - Tạo việc</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -79,26 +79,26 @@ header("location:../");
 						<ul class="nav navbar-nav" id="responsive-menu">
 						
 							<li>
-							
-								<a href="../">Home</a>
+								
+								<a href="../">Trang chủ</a>
 								
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Danh sách việc làm</a>
 
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Nhân viên</a>
 							</li>
 							
 							<li>
-								<a href="../contact.php">Contact Us</a>
+								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -107,8 +107,8 @@ header("location:../");
 
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">logout</a></li>
-							<li><a href="./">Profile</a></li>
+							<li><a href="../logout.php">Đăng xuất</a></li>
+							<li><a href="./">Trợ giúp</a></li>
 						</ul>
 					</div>
 				
@@ -128,7 +128,7 @@ header("location:../");
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Home</a></li>
+						<li><a href="../">Trang chủ</a></li>
 						<li><a ><?php echo "$compname"; ?></a></li>
 						<li><span>Post a Job</span></li>
 					</ol>
@@ -164,15 +164,15 @@ header("location:../");
 									
 									<ul class="meta-list clearfix">
 										<li>
-											<h4 class="heading">Established In:</h4>
+											<h4 class="heading">Thành lập năm:</h4>
 											<?php echo "$esta"; ?>
 										</li>
 										<li>
-											<h4 class="heading">Type:</h4>
+											<h4 class="heading">Loại hình:</h4>
 											<?php echo "$mytitle"; ?>
 										</li>
 										<li>
-											<h4 class="heading">People:</h4>
+											<h4 class="heading">Số lượng nhân viên:</h4>
 											<?php echo "$mypeople"; ?>
 										</li>
 										<li>
@@ -187,7 +187,7 @@ header("location:../");
 									</ul>
 									
 									
-									<a href="./" class="btn btn-primary mt-5"><i class="fa fa-pencil-square-o mr-5"></i>Edit</a>
+									<a href="./" class="btn btn-primary mt-5"><i class="fa fa-pencil-square-o mr-5"></i>Sửa</a>
 									
 								</div>
 					
@@ -201,7 +201,7 @@ header("location:../");
 									<div class="company-detail-company-overview  mt-0 clearfix">
 										
 										<div class="section-title-02">
-											<h3 class="text-left">Post a Job</h3>
+											<h3 class="text-left">Tạo việc</h3>
 										</div>
 
 										<form class="post-form-wrapper" action="app/post-job.php" method="POST" autocomplete="off">
@@ -212,8 +212,8 @@ header("location:../");
 												<div class="col-sm-8 col-md-8">
 												
 													<div class="form-group">
-														<label>Job Title</label>
-														<input name="title" required type="text" class="form-control" placeholder="Enter job title">
+														<label>Chức vụ</label>
+														<input name="title" required type="text" class="form-control" placeholder="Nhập...">
 													</div>
 													
 												</div>
@@ -223,8 +223,8 @@ header("location:../");
 												<div class="col-sm-4 col-md-4">
 												
 													<div class="form-group">
-														<label>City</label>
-														<input name="city" required type="text" class="form-control" placeholder="Enter city">
+														<label>Thành phố</label>
+														<input name="city" required type="text" class="form-control" placeholder="Nhập...">
 													</div>
 													
 												</div>
@@ -232,9 +232,9 @@ header("location:../");
 												<div class="col-sm-4 col-md-4">
 												
 													<div class="form-group">
-														<label>Country</label>
+														<label>Quốc gia</label>
 														<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
-															<option disabled value="">Select</option>
+															<option disabled value="">Chọn</option>
 						                                   <?php
 														   require '../constants/db_config.php';
 														   try {
@@ -269,9 +269,9 @@ header("location:../");
 												<div class="col-sm-4 col-md-4">
 												
 													<div class="form-group">
-														<label>Job Category</label>
+														<label>Chuyên ngành</label>
 															<select name="category" required class="selectpicker show-tick form-control" data-live-search="true">
-															<option disabled value="">Select</option>
+															<option disabled value="">Chọn</option>
 						                                   <?php
 														   require '../constants/db_config.php';
 														   try {
@@ -305,8 +305,8 @@ header("location:../");
 											    <div class="col-sm-4 col-md-4">
 												
 													<div class="form-group">
-														<label>Closing Date</label>
-														<input name="deadline" required type="text" class="form-control" placeholder="Eg: 30/12/2018">
+														<label>Ngày đóng</label>
+														<input name="deadline" required type="text" class="form-control" placeholder="VD: 30/12/2018">
 													</div>
 													
 												</div>
@@ -316,9 +316,9 @@ header("location:../");
 												<div class="col-xss-12 col-xs-6 col-sm-6 col-md-4">
 												
 													<div class="form-group mb-20">
-														<label>Job Type:</label>
+														<label>Loại công vuệc:</label>
 														<select name="jobtype" required class="selectpicker show-tick form-control" data-live-search="false" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" data-none-selected-text="All">
-															<option value="" selected>Select</option>
+															<option value="" selected>Chọn</option>
 															<option value="Full-time" data-content="<span class='label label-warning'>Full-time</span>">Full-time</option>
 															<option value="Part-time" data-content="<span class='label label-danger'>Part-time</span>">Part-time</option>
 															<option value="Freelance" data-content="<span class='label label-success'>Freelance</span>">Freelance</option>
@@ -330,14 +330,14 @@ header("location:../");
 												<div class="col-xss-12 col-xs-6 col-sm-6 col-md-4">
 												
 													<div class="form-group mb-20">
-														<label>Experience:</label>
+														<label>Kinh nghiệm:</label>
 														<select name="experience" required class="selectpicker show-tick form-control" data-live-search="false" data-selected-text-format="count > 3" data-done-button="true" data-done-button-text="OK" data-none-selected-text="All">
-															<option value="" selected >Select</option>
-															<option value="Expert">Expert</option>
-															<option value="2 Years">2 Years</option>
-															<option value="3 Years">3 Years</option>
-															<option value="4 Years">4 Years</option>
-															<option value="5 Years">5 Years</option>
+															<option value="" selected >Chọn</option>
+															<option value="Expert">khác</option>
+															<option value="2 Years">2 năm</option>
+															<option value="3 Years">3 năm</option>
+															<option value="4 Years">4 năm</option>
+															<option value="5 Years">5 năm</option>
 														</select>
 													</div>
 													
@@ -349,8 +349,8 @@ header("location:../");
 												<div class="col-sm-12 col-md-12">
 												
 													<div class="form-group bootstrap3-wysihtml5-wrapper">
-														<label>Job Description</label>
-														<textarea class="form-control bootstrap3-wysihtml5" name="description" required placeholder="Enter description ..." style="height: 200px;"></textarea>
+														<label>Mô tả công việc</label>
+														<textarea class="form-control bootstrap3-wysihtml5" name="description" required placeholder="Nội dung ..." style="height: 200px;"></textarea>
 													</div>
 													
 												</div>
@@ -360,8 +360,8 @@ header("location:../");
 												<div class="col-sm-12 col-md-12">
 												
 													<div class="form-group bootstrap3-wysihtml5-wrapper">
-														<label>Job Responsibilies</label>
-														<textarea name="responsiblities" required class="form-control bootstrap3-wysihtml5" placeholder="Enter responsiblities..." style="height: 200px;"></textarea>
+														<label>Trách nhiệms</label>
+														<textarea name="responsiblities" required class="form-control bootstrap3-wysihtml5" placeholder="Nhập..." style="height: 200px;"></textarea>
 													</div>
 													
 												</div>
@@ -371,8 +371,8 @@ header("location:../");
 												<div class="col-sm-12 col-md-12">
 												
 													<div class="form-group bootstrap3-wysihtml5-wrapper">
-														<label>Requirements</label>
-														<textarea name="requirements" required class="form-control bootstrap3-wysihtml5" placeholder="Enter requirements..." style="height: 200px;"></textarea>
+														<label>Yêu cầu:</label>
+														<textarea name="requirements" required class="form-control bootstrap3-wysihtml5" placeholder="Nội dung..." style="height: 200px;"></textarea>
 													</div>
 													
 												</div>
@@ -394,7 +394,7 @@ header("location:../");
 												<div class="clear"></div>
 												
 												<div class="col-sm-6 mt-30">
-													<button type="submit"  onclick = "validate(this)" class="btn btn-primary btn-lg">Post Your Job</button>
+													<button type="submit"  onclick = "validate(this)" class="btn btn-primary btn-lg">Đăng tải</button>
 												</div>
 
 											</div>
@@ -433,22 +433,22 @@ header("location:../");
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+										<h5 class="footer-title">Giới thiệu Jobs Portal </h5>
+											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
 										
 										</div>
 
 									</div>
 									
 									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Quick Links</h5>
+									<h5 class="footer-title">Liên kết nhanh</h5>
 										<ul class="footer-menu clearfix">
-											<li><a href="../">Home</a></li>
-											<li><a href="../job-list.php">Job List</a></li>
-											<li><a href="../employers.php">Employers</a></li>
-											<li><a href="../employees.php">Employees</a></li>
-											<li><a href="../contact.php">Contact Us</a></li>
-											<li><a href="#">Go to top</a></li>
+											<li><a href="../">Trang chủ</a></li>
+											<li><a href="../job-list.php">Danh sách</a></li>
+											<li><a href="../employers.php">Nhà tuyển dụng</a></li>
+											<li><a href="../employees.php">Nhân viên</a></li>
+											<li><a href="../contact.php">Liên hệ</a></li>
+										
 
 										</ul>
 									
@@ -460,11 +460,11 @@ header("location:../");
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-							<h5 class="footer-title">Nightingale Jobs Contact</h5>
+							<h5 class="footer-title">Jobs Portal Contact</h5>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
+								<p>Address : Công ty THHH KHOA TỊNH</p>
+								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+233 456 789</a></p>
 								
 
 							</div>
@@ -485,15 +485,15 @@ header("location:../");
 							<div class="col-sm-4 col-md-4">
 					
 							
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
-								
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-							
-								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
-								</ul>
+							<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> KhoaTinh Vision Software</p>
+					
+					</div>
+		
+					<div class="col-sm-4 col-md-4">
+		
+						<ul class="bottom-footer-menu">
+							<li><a >Developed by Trungthanhzz</a></li>
+						</ul>
 							
 							</div>
 							

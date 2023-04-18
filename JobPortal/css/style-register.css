@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 30px;
    
-    background: black;
+    background: #20252f;
 }
 
 .inputBox {
@@ -19,8 +19,7 @@
 .inputBox input {
     width: 100%;
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background-color: black;
+    background-color: #20252f;
     border-radius: 5px;
     outline: none;
     color: #fff;
@@ -45,7 +44,7 @@
     transform: translateX(10px) translateY(-7px);
     font-size: 0.65em;
     padding: 0 10px;
-    background: black;
+    background: #20252f;
     border-left: 1px solid #45f3ff;
     border-right: 1px solid #45f3ff;
     letter-spacing: 0.2em;

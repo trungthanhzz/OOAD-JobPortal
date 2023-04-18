@@ -2,14 +2,14 @@
 
 
 <form name="frm" action="app/create-account.php" method="POST" autocomplete="off">
-<div class="box-register">
+<div class="login-box-wrapper">
 							
 <div class="modal-header">
 <h4 class="modal-title text-center">Tạo tài khoản</h4>
 </div>
 
-<!-- <div class="modal-body"> -->
-<div class="modal-body-new">
+ <div class="modal-body">
+<!-- <div class="modal-body-new"> -->
 					
 <!--asdasdsad -->
 <div class="row gap-20">
@@ -20,50 +20,45 @@
 												
 <div class="col-sm-12 col-md-12">
 
-<div class="input-wrapper"> 
-<input class="form-control_register" type="text" name="fname" required="required"> 
-<span>Họ tên</span>
-<i></i>
+<div class="form-group"> 
+<label>Họ tên</label>
+<input class="form-control" placeholder="Điền họ và tên" type="text" name="fname" required="required"> 
 </div>
 												
 </div>
 
 <div class="col-sm-12 col-md-12">
 
-<div class="input-wrapper"> 
-    <input class="form-control_register" type="text" name="lname" required="required"> 
-    <span>Email</span>
-    <i></i>
+<div class="form-group"> 
+    <label>Email</label>
+    <input class="form-control" placeholder="Enter your email address" type="text" name="lname" required="required"> 
 </div>
 												
 </div>
 												
 <div class="col-sm-12 col-md-12">
 
-<div class="input-wrapper"> 
-    <input class="form-control_register" type="text" name="email" required="required"> 
-    <span>Tài khoản</span>
-    <i></i>
+<div class="form-group"> 
+    <label>Tài khoản</label>
+    <input class="form-control" placeholder="Enter your username" type="text" name="email" required="required"> 
 </div>
 												
 </div>
 												
 <div class="col-sm-12 col-md-12">
 												
-<div class="input-wrapper"> 
-    <input class="form-control_register" name="password" required="required" type="password"> 
-    <span>Mật khẩu</span>
-    <i></i>
+<div class="form-group"> 
+    <label>Mật khẩu</label>
+    <input class="form-control" placeholder="Min 8 and Max 20 characters" name="password" required="required" type="password"> 
 </div>
 												
 </div>
 												
 <div class="col-sm-12 col-md-12">
 												
-<div class="input-wrapper"> 
-    <input class="form-control_register" name="confirmpassword" required="required" type="password"> 
-    <span>Xác nhận mật khẩu</span>
-    <i></i>
+<div class="form-group"> 
+    <label>Xác nhận mật khẩu</label>
+    <input class="form-control" placeholder="Re-type password again" name="confirmpassword" required="required" type="password"> 
 </div>
 												
 </div>

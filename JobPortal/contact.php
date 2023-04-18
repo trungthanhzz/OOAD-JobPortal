@@ -176,7 +176,7 @@ include 'constants/check-login.php';
 						
 							<div class="section-title">
 							
-								<h2>Liên hệ để được giúp đỡ</h2>
+								<h2 style="text-transform: uppercase;">Liên hệ để được giúp đỡ</h2>
 								
 							</div>
 

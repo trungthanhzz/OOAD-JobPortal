@@ -82,12 +82,6 @@ header("location:../");
 					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
 					
 						<ul class="nav navbar-nav" id="responsive-menu">
-						
-							<li>
-							
-								<a href="../">Trang chủ</a>
-								
-							</li>
 							
 							<li>
 								<a href="../job-list.php">Danh sách việc làm</a>

@@ -100,12 +100,6 @@ $page = 1;
 					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
 					
 						<ul class="nav navbar-nav" id="responsive-menu">
-						
-							<li>
-							
-								<a href="../">Trang chủ</a>
-								
-							</li>
 							
 							<li>
 								<a href="../job-list.php">Danh sách việc làm</a>
@@ -114,14 +108,6 @@ $page = 1;
 							
 							<li>
 								<a href="../employers.php">Nhà tuyển dụng</a>
-							</li>
-							
-							<li>
-								<a href="../employees.php">Nhân viên</a>
-							</li>
-							
-							<li>
-								<a href="../contact.php">Liên hệ</a>
 							</li>
 
 						</ul>
@@ -193,7 +179,7 @@ $page = 1;
 									
 									<div class="admin-user-action text-center">
 									
-										<a target="_blank" href="my_cv" class="btn btn-primary btn-sm btn-inverse">My CV</a>
+										<a target="_blank" href="attachments.php" class="btn btn-primary btn-sm btn-inverse">My CV</a>
 										
 									</div>
 									
@@ -205,25 +191,10 @@ $page = 1;
 										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
 										</li>
 										<li  >
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Trình độ chuyên môn</a>
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Chứng chỉ chuyên môn</a>
 										</li>
 										<li>
 											<a href="language.php"><i class="fa fa-language"></i> Trình độ ngoại ngữ</a>
-										</li>
-										<li>
-											<a href="training.php"><i class="fa fa-gears"></i> Hội thảo & tập huấn</a>
-										</li>
-										<li>
-											<a href="referees.php"><i class="fa fa-users"></i> Môi giới</a>
-										</li>
-										<li class="active">
-											<a href="academic.php"><i class="fa fa-graduation-cap"></i>Học vấn</a>
-										</li>
-										<li>
-											<a href="experience.php"><i class="fa fa-briefcase"></i> Kinh nghiệm</a>
-										</li>
-										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Tệp đình kèm</a>
 										</li>
 										<li>
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Việc đã ứng tuyển</a>
@@ -567,7 +538,7 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Jobs Portal Contact</h5>
+								<h5 class="footer-title">Jobs Hunter Contact</h5>
 								
 								<p>Address : Công ty THHH KHOA TỊNH</p>
 								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

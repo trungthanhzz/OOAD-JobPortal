@@ -10,7 +10,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal</title>
+	<title>Jobs Hunter</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -174,12 +174,12 @@ include 'constants/check-login.php';
 
 		<div class="main-wrapper">
 		
-			<div class="hero" style="background-image:url('images/3duanhinmaytinh.jpg');">
+			<div class="hero" style="background-image:url('images/banner1.jpg');">
 				<div class="container-trash">
 
 					
-					<h3>Có làm thì mới có ăn</h3>
-					<h3>Trungthanhzz.</h3>
+					<h3 style="font-weight: 600;">Cơ hội ở đâu cũng có, miễn là bạn có biết nắm lấy hay không.</h3>
+					<h3>"Job Hunter."</h3>
 
 					<!-- <div class="main-search-form-wrapper">
 					
@@ -437,7 +437,7 @@ include 'constants/check-login.php';
 						
 						
 						<div class ="col-sm-6">
-							<img src="https://cdn.discordapp.com/attachments/967630517207982170/1036328685348851762/6yvlhp.jpg" alt="">
+							<img src="https://jobsgo.vn/blog/wp-content/uploads/2021/05/mau-1.jpg" alt="">
 						</div>
 
 						<div class ="col-sm-6">
@@ -585,18 +585,7 @@ include 'constants/check-login.php';
 							<img src="https://cdn.discordapp.com/attachments/967630517207982170/1036862124707827802/login4x.png" alt="">
 						</div>
 
-						
-						
-						<!-- <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-						
-							<div class="section-title">
-							
-								<h2>Latest Jobs</h2>
-								
-							</div>
-						
-						</div> -->
-					
+											
 					</div>
 			
 					</div>

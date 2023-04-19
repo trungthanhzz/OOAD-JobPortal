@@ -34,7 +34,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Học vấn</title>
+	<title>Jobs Hunter - Học vấn</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -102,11 +102,6 @@ $page = 1;
 					
 						<ul class="nav navbar-nav" id="responsive-menu">
 						
-							<li>
-							
-								<a href="../">Trang chủ</a>
-								
-							</li>
 							
 							<li>
 								<a href="../job-list.php">Danh sách việc làm</a>
@@ -117,10 +112,6 @@ $page = 1;
 								<a href="../employers.php">Nhà tuyển dụng</a>
 							</li>
 							
-							<li>
-								<a href="../employees.php">Nhân viên</a>
-							</li>
-						
 
 						</ul>
 				
@@ -149,7 +140,7 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Jobs Portal</a></li>
+						<li><a href="../">Jobs Hunter</a></li>
 						<li><span>Học vấn</span></li>
 					</ol>
 					
@@ -642,8 +633,8 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-												<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
-												<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
+												<h5 class="footer-title">Giới thiệu Jobs Hunter</h5>
+												<p>Jobs Hunter là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi nhóm 8 cho môn học Phân tích thiết kế hướng đối tượng</p>
 											
 											</div>
 
@@ -670,7 +661,7 @@ $page = 1;
 								
 								<div class="col-sm-12 col-md-3 mt-30-sm">
 								
-									<h5 class="footer-title">Jobs Portal Contact</h5>
+									<h5 class="footer-title">Jobs Hunter Contact</h5>
 									
 									<p>Address : Công ty THHH KHOA TỊNH</p>
 									<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

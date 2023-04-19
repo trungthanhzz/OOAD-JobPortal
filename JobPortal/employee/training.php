@@ -559,7 +559,7 @@ $page = 1;
 								
 								<div class="col-sm-12 col-md-3 mt-30-sm">
 								
-									<h5 class="footer-title">Jobs Portal Contact</h5>
+									<h5 class="footer-title">Jobs Hunter Contact</h5>
 									
 									<p>Address : Công ty THHH KHOA TỊNH</p>
 									<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

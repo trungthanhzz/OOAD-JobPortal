@@ -61,7 +61,7 @@ header("location:./");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal <?php echo "$myfname"; ?> <?php echo "$mylname"; ?></title>
+	<title>Jobs Hunter <?php echo "$myfname"; ?> <?php echo "$mylname"; ?></title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -132,13 +132,7 @@ header("location:./");
 					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
 					
 						<ul class="nav navbar-nav" id="responsive-menu">
-						
-							<li>
-							
-								<a href="./">Trang chủ</a>
-								
-							</li>
-							
+													
 							<li>
 								<a href="job-list.php">Danh sách việc làm</a>
 
@@ -278,148 +272,9 @@ header("location:./");
 										
 										<p><?php echo "$about"; ?></p>
 										
-										<div class="row">
 										
-											<div class="col-sm-12">
-											
-												<h3>Học vấn</h3>
-												
-												<ul class="employee-detail-list">
-												<?php
-												require 'constants/db_config.php';
-												try {
-                                                $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                                                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                                                $stmt = $conn->prepare("SELECT * FROM tbl_academic_qualification WHERE member_no = :empid ORDER BY id");
-	                                            $stmt->bindParam(':empid', $empid);
-                                                $stmt->execute();
-                                                $result = $stmt->fetchAll();
-	                                            $rec = count($result);
-	                                            if ($rec == "0") {
- 
-	                                            }else{
-
-                                                foreach($result as $row)
-                                                {
-                                                ?>
-												<li>
-												<h5><?php echo $row['course']; ?> </h5>
-												<p class="text-muted font-italic">Level - <?php echo $row['level']; ?> , <?php echo $row['timeframe']; ?><span class="font600 text-primary"> <?php echo $row['institution']; ?></span> <?php echo $row['country']; ?></p>
-												<p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate.php?id=<?php echo $row['id']; ?>">Xem chứng chỉ</a></p>
-												</li>
-												<?php
-	                                            }
-	
-	                                            }
-
-					  
-	                                            }catch(PDOException $e)
-                                                {
-
-                                                 } ?>
-
 										
-													
-												</ul>
-												
-											</div>
-											
-
-											
-										</div>
-										
-										<h3>Kinh nghiệm làm việc</h3>
-											<ul class="employee-detail-list">
-												<?php
-												require 'constants/db_config.php';
-												try {
-                                                $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                                                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                                                $stmt = $conn->prepare("SELECT * FROM tbl_experience WHERE member_no = :empid ORDER BY id");
-	                                            $stmt->bindParam(':empid', $empid);
-                                                $stmt->execute();
-                                                $result = $stmt->fetchAll();
-	                                            $rec = count($result);
-	                                            if ($rec == "0") {
- 
-	                                            }else{
-
-                                                foreach($result as $row)
-                                                {
-                                                ?>
-												<li>
-												<h5><?php echo $row['title']; ?> </h5>
-												<p class="text-muted font-italic"><?php echo $row['start_date']; ?> to <?php echo $row['end_date']; ?><span class="font600 text-primary"> <?php echo $row['institution']; ?></span></p>
-												<p>Supervisor : <span class="font600 text-primary"> <?php echo $row['supervisor']; ?></span> , Phone : <span class="font600 text-primary"> <?php echo $row['supervisor_phone']; ?></span> <br><?php echo $row['duties']; ?></p>
-												</li>
-												<?php
-	                                            }
-	
-	                                            }
-
-					  
-	                                            }catch(PDOException $e)
-                                                {
-
-                                                 } ?>
-
-										
-													
-												</ul>
-										
-							
-										
-										<h3>Hội thảo $ tập huấn</h3>
-												<ul class="employee-detail-list">
-												<?php
-												require 'constants/db_config.php';
-												try {
-                                                $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                                                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                                                $stmt = $conn->prepare("SELECT * FROM tbl_training WHERE member_no = :empid ORDER BY id");
-	                                            $stmt->bindParam(':empid', $empid);
-                                                $stmt->execute();
-                                                $result = $stmt->fetchAll();
-	                                            $rec = count($result);
-	                                            if ($rec == "0") {
- 
-	                                            }else{
-
-                                                foreach($result as $row)
-                                                {
-													$certificate = $row['certificate'];
-                                                ?>
-												<li>
-												<h5><?php echo $row['training']; ?> </h5>
-												<p class="text-muted font-italic"><span class="font600 text-primary"> <?php echo $row['institution']; ?></span> <?php echo $row['timeframe']; ?></p>
-												<?php
-												if ($certificate == "") {
-													
-												}else{
-												?>
-                                                <p><a target="_blank" class="btn btn-primary btn-sm mb-5 mb-0-sm" href="view-certificate-b.php?id=<?php echo $row['id']; ?>">Xem chứng chỉ</a></p>
-                                                <?php												
-												}
-												
-												?>
-												
-												</li>
-												<?php
-	                                            }
-	
-	                                            }
-
-					  
-	                                            }catch(PDOException $e)
-                                                {
-
-                                                 } ?>
-
-										
-													
-												</ul>
-										
-										<h3>Trình độ chuyên môn</h3>
+										<h3>Chứng chỉ chuyên môn</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -459,7 +314,7 @@ header("location:./");
 												</ul>
 												
 												
-											<h3>Tệp đính kèm</h3>
+											<h3>CV đính kèm</h3>
 												<ul class="employee-detail-list">
 												<?php
 												require 'constants/db_config.php';
@@ -537,55 +392,6 @@ header("location:./");
 												</ul>
 										
 										
-										<h3>Môi giới</h3>
-										<ul class="list-icon">
-												<?php
-												require 'constants/db_config.php';
-												try {
-                                                $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                                                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                                                $stmt = $conn->prepare("SELECT * FROM tbl_referees WHERE member_no = :empid ORDER BY id");
-	                                            $stmt->bindParam(':empid', $empid);
-                                                $stmt->execute();
-                                                $result = $stmt->fetchAll();
-	                                            $rec = count($result);
-	                                            if ($rec == "0") {
- 
-	                                            }else{
-
-                                                foreach($result as $row)
-                                                {
-                                                ?>
-											<li>
-											
-												<div class="icon">
-												
-													<i class="flaticon-line-icon-set-user-1"></i>
-												
-												</div>
-												
-												<h5><?php echo $row['ref_name']; ?></h5>
-												<p><?php echo $row['ref_title']; ?> <span class="font600 text-primary"><?php echo $row['institution']; ?></span></p>
-												<p>Email : <a href="mailto:<?php echo $row['ref_mail']; ?>"><?php echo $row['ref_mail']; ?></a></p>
-												<p>Phone : <a href="tel:<?php echo $row['ref_phone']; ?>"><?php echo $row['ref_phone']; ?></a></p>
-											
-											</li>
-												<?php
-	                                            }
-	
-	                                            }
-
-					  
-	                                            }catch(PDOException $e)
-                                                {
-
-                                                 } ?>
-										
-										
-																
-											
-										</ul>
-										
 									</div>
 
 								</div>
@@ -616,8 +422,8 @@ header("location:./");
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
-											<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
+											<h5 class="footer-title">Giới thiệu Jobs Hunter</h5>
+											<p>Jobs Hunter là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi nhóm 8 cho môn học Phân tích thiết kế hướng đối tượng</p>
 										
 										</div>
 
@@ -644,7 +450,7 @@ header("location:./");
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Jobs Portal Contact</h5>
+								<h5 class="footer-title">Jobs Hunter Contact</h5>
 								
 								<p>Address : Công ty THHH KHOA TỊNH</p>
 								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

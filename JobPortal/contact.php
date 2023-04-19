@@ -10,7 +10,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Liên hệ</title>
+	<title>Jobs Hunter - Liên hệ</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">

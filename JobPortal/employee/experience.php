@@ -33,7 +33,7 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Kinh nghiệm</title>
+	<title>Jobs Hunter - Kinh nghiệm</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -151,7 +151,7 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Jobs Portal</a></li>
+						<li><a href="../">Jobs Hunter</a></li>
 						<li><span>Kinh nghiệm</span></li>
 					</ol>
 					
@@ -619,7 +619,7 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Jobs Portal Contact</h5>
+								<h5 class="footer-title">Jobs Hunter Contact</h5>
 								
 								<p>Address : Công ty THHH KHOA TỊNH</p>
 								<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

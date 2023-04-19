@@ -17,7 +17,7 @@ $token = $_GET['token'];
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Đặt lại mật khẩu</title>
+	<title>Jobs Hunter - Đặt lại mật khẩu</title>
 	
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
@@ -292,8 +292,8 @@ print '
 								<div class="col-sm-6 col-md-4">
 									
 									<div class="footer-about-us">
-										<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
-										<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
+										<h5 class="footer-title">Giới thiệu Jobs Hunter</h5>
+										<p>Jobs Hunter là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi nhóm 8 cho môn học Phân tích thiết kế hướng đối tượng</p>
 									
 									</div>
 
@@ -320,7 +320,7 @@ print '
 						
 						<div class="col-sm-12 col-md-3 mt-30-sm">
 						
-							<h5 class="footer-title">Jobs Portal Contact</h5>
+							<h5 class="footer-title">Jobs Hunter Contact</h5>
 							
 							<p>Address : Công ty THHH KHOA TỊNH</p>
 							<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

@@ -19,7 +19,7 @@ header("location:../");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Hồ sơ nhân viên</title>
+	<title>Jobs Hunter - Hồ sơ nhân viên</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -170,34 +170,18 @@ header("location:../");
 										<li  class="active">
 											<a href="./"><i class="fa fa-user"></i> Hồ sơ</a>
 										</li>
-										<!-- <li class="">
-										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
+										<li class="">
+										<a href="change-password.php"><i class="fa fa-key"></i> Đổi mật khẩu</a>
 										</li>
 										<li>
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Chứng chỉ chuyên môn</a>
 										</li>
 										<li>
-											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>
+											<a href="language.php"><i class="fa fa-language"></i> Trình độ ngoại ngữ</a>
 										</li>
 										<li>
-											<a href="training.php"><i class="fa fa-gears"></i> Training & Workshop</a>
-										</li>
-
-										<li>
-											<a href="referees.php"><i class="fa fa-users"></i> Referees</a>
-										</li>
-										<li>
-											<a href="academic.php"><i class="fa fa-graduation-cap"></i> Academic Qualifications</a>
-										</li>
-										<li>
-											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
-										</li>
-										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
-										</li>
-										<li>
-											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
-										</li> -->
+											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Việc đã ứng tuyển</a>
+										</li> 
 										<li>
 											<a href="../logout.php"><i class="fa fa-sign-out"></i> Đăng xuất</a>
 										</li>
@@ -503,8 +487,8 @@ header("location:../");
 								<div class="col-sm-6 col-md-4">
 									
 									<div class="footer-about-us">
-										<h5 class="footer-title">Giới thiệu Jobs Portal</h5>
-										<p>Jobs Portal là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi Nathaniel Nkrumah cho dự án của anh ấy vào tháng 2 năm 2018.</p>
+										<h5 class="footer-title">Giới thiệu Jobs Hunter</h5>
+										<p>Jobs Hunter là một cổng thông tin việc làm, hệ thống quản lý công việc trực tuyến được phát triển bởi nhóm 8 cho môn học Phân tích thiết kế hướng đối tượng</p>
 									
 									</div>
 
@@ -530,7 +514,7 @@ header("location:../");
 						
 						<div class="col-sm-12 col-md-3 mt-30-sm">
 						
-							<h5 class="footer-title">Jobs Portal Contact</h5>
+							<h5 class="footer-title">Jobs Hunter Contact</h5>
 							
 							<p>Address : Công ty THHH KHOA TỊNH</p>
 							<p>Email : <a href="hosyvietkhoa37@gmail.com">khoatinh36@gmail.com</a></p>

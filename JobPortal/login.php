@@ -13,7 +13,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jobs Portal - Đăng nhập</title>
+	<title>Jobs Hunter - Đăng nhập</title>
 
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords"
